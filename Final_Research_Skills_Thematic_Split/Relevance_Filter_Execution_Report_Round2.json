@@ -1,0 +1,55 @@
+{
+  "round": 2,
+  "source": "Final_Research_Skills_Thematic_Split/Relevance_Report.md",
+  "files": [
+    {
+      "file": "02_literature_review_writing_citation.md",
+      "before_rows": 844,
+      "after_rows": 811,
+      "removed_by_skill_count": 32,
+      "removed_by_skill_unique": [
+        "Art",
+        "ceo-advisor",
+        "competitive-landscape",
+        "content-creator",
+        "content-marketer",
+        "copy-editing",
+        "copywriting",
+        "data-storytelling",
+        "game-art",
+        "game-design",
+        "seo-audit",
+        "startup-business-analyst-business-case"
+      ],
+      "removed_by_repo_row_count": 1,
+      "pruned_empty_sections": [
+        "aaron-he-zhu/seo-geo-claude-skills",
+        "Abdullah4AI/personal-shopper-skill",
+        "b1rdmania/hinge-profile-optimizer"
+      ],
+      "count_line_updated": true,
+      "residue_skill_count": 0,
+      "residue_repo_row_count": 0
+    },
+    {
+      "file": "04_data_analysis_and_evidence_interpretation.md",
+      "before_rows": 246,
+      "after_rows": 239,
+      "removed_by_skill_count": 7,
+      "removed_by_skill_unique": [
+        "azure-ai-document-intelligence-dotnet",
+        "azure-ai-document-intelligence-ts",
+        "azure-ai-formrecognizer-java",
+        "blockchain-developer",
+        "connector-config",
+        "security-compliance-compliance-check",
+        "team-collaboration-issue"
+      ],
+      "removed_by_repo_row_count": 0,
+      "pruned_empty_sections": [],
+      "count_line_updated": true,
+      "residue_skill_count": 0,
+      "residue_repo_row_count": 0
+    }
+  ]
+}

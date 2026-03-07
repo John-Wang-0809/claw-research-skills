@@ -1,0 +1,1873 @@
+{
+  "metadata": {
+    "date": "2026-03-01",
+    "source": "audit_results.json (gpt-5.2 full audit)",
+    "total_invalid_in_audit": 477,
+    "x_class_corrected": 69,
+    "y_class_confirmed_invalid": 134,
+    "unique_skill_names": 78,
+    "description": "Skills confirmed as NOT research-related after X-class correction and user review. Primarily security/pentesting tools with no credible research use case."
+  },
+  "row_ids": [
+    "d20b3396a4b9",
+    "bba6bd379330",
+    "414d490534b7",
+    "be7672ced365",
+    "b0a80850c78c",
+    "1a8780ab0c1a",
+    "fa939ce5f830",
+    "4ae34f84bb34",
+    "f83d478efc23",
+    "4dce6912d91e",
+    "c8d27bbe565b",
+    "9ea5cd122157",
+    "42e71810ff56",
+    "114c3b66459e",
+    "70ed404d4ffc",
+    "9f8f31e32ef8",
+    "162db73344c2",
+    "e1ceeffc2593",
+    "c06c78b4dca1",
+    "272962da36b2",
+    "ae47061c555e",
+    "f1223c280bb3",
+    "74caa5d33f28",
+    "09c2ee885883",
+    "a7373f66d433",
+    "dc5b60653124",
+    "48efe03b18d2",
+    "14a797eb3cf3",
+    "f5ec7a25634e",
+    "ac1150aa9d5f",
+    "ab89d40e119b",
+    "e115b135063d",
+    "1106f8d00eaa",
+    "cbb56924b578",
+    "dab8c463a00d",
+    "ab5fddd3e229",
+    "33671dd8c7fc",
+    "9a8d6f3486af",
+    "bbd60c4ab2ff",
+    "e91f6e93a7b8",
+    "0ec417de97ae",
+    "03fa45670a58",
+    "a2adfd72f6d7",
+    "61cc72058091",
+    "873ab6fbbb72",
+    "9fe2ba3119b7",
+    "97d3f93c0013",
+    "bd8915b651c5",
+    "a98ccb85da6e",
+    "6402c1c000b5",
+    "feee8990ff23",
+    "9a3acd05bae7",
+    "ae2ce194f43e",
+    "6cb3fe145e83",
+    "081cd2cca30d",
+    "e3ad2321887a",
+    "0277d2fa6dff",
+    "9730dd4ae403",
+    "71e93fdcc34d",
+    "688a0a87471d",
+    "1d2467266414",
+    "c9551aecf7dd",
+    "b9f2e838214a",
+    "0932f29f0095",
+    "25851bd9472b",
+    "07a81ad4743e",
+    "b92df92bc04c",
+    "f951a25629fe",
+    "aa42f1b71724",
+    "47ef8f4495ad",
+    "db6cd810f84f",
+    "653c013f9e80",
+    "d95409ca3252",
+    "43168391f9b3",
+    "333c6fc60135",
+    "73093e1722dc",
+    "67fda535b745",
+    "c15d4b3a966f",
+    "8392c3807087",
+    "0be7c1999241",
+    "cfb2e5f74b1e",
+    "782fed1f5963",
+    "e5c02ffff5bf",
+    "8b0e39484e00",
+    "b6e1a62086ff",
+    "90362e5f7109",
+    "49d314d0687f",
+    "bce7376c18a4",
+    "130b8148be04",
+    "5c1513ee9304",
+    "344a2c24d88e",
+    "52e0f3787805",
+    "c0faac4b6a45",
+    "4abc3adcf032",
+    "c5b855f8d0fc",
+    "497768eca310",
+    "549aa64c32ae",
+    "8c62dc917793",
+    "235ab7342333",
+    "70d34eb7f941",
+    "2cb22017d4b2",
+    "80bd52e71ef7",
+    "66e141e8216a",
+    "3de3066e235d",
+    "d89667bd2093",
+    "fccc923a5d88",
+    "bbcd1871143d",
+    "09382da86fa3",
+    "56128993d941",
+    "06065b926032",
+    "c219b46d08b8",
+    "5b63e13c838b",
+    "561481f8faf4",
+    "f60fd9c00d77",
+    "4154e729afba",
+    "7167ddf33e71",
+    "b450a4bc753b",
+    "62e8ec2145d5",
+    "9e895d1a919e",
+    "9d434b4ebfb5",
+    "ffed88bf2150",
+    "578b6c2f927e",
+    "2ec247b8b8dd",
+    "a469a20a785d",
+    "51c74d1efcc2",
+    "6111e9bf86c5",
+    "7b9205dd4399",
+    "aa618d4bf005",
+    "cbdd88b97e0e",
+    "b943e7ac3a8b",
+    "2500317b0f67",
+    "2dc4754dfc76",
+    "8ca8c858bf1d",
+    "736a80b3df3c"
+  ],
+  "unique_skill_names": [
+    "AWS Penetration Testing",
+    "Agents",
+    "Broken Authentication Testing",
+    "Burp Suite Web Application Testing",
+    "Cloud Penetration Testing",
+    "Cloudinary Automation",
+    "Cross-Site Scripting and HTML Injection Testing",
+    "Ethical Hacking Methodology",
+    "Fabric",
+    "File Path Traversal Testing",
+    "IDOR Vulnerability Testing",
+    "Linux Privilege Escalation",
+    "Metasploit Framework",
+    "Mistral AI Automation",
+    "Pentest Checklist",
+    "Red Team Tools and Methodology",
+    "SMTP Penetration Testing",
+    "SQL Injection Testing",
+    "SSH Penetration Testing",
+    "Security Scanning Tools",
+    "Top 100 Web Vulnerabilities Reference",
+    "Verification & Quality Assurance",
+    "WebAssessment",
+    "andrew-kane-gem-writer",
+    "application-performance-performance-optimization",
+    "attack-tree-construction",
+    "audit-prep-assistant",
+    "azure-ai-openai-dotnet",
+    "azure-mgmt-apicenter-py",
+    "behavioral-modes",
+    "code-reviewer",
+    "continuous-learning",
+    "continuous-learning-v2",
+    "dotnet-architect",
+    "dwarf-expert",
+    "entry-point-analyzer",
+    "field-agent-deployment",
+    "field-agent-visualization",
+    "flow-nexus-platform",
+    "framework-migration-code-migrate",
+    "frontend-mobile-security-xss-scan",
+    "fuzzing-obstacles",
+    "google-adk-python",
+    "ios-developer",
+    "langsmith-fetch",
+    "loki-mode",
+    "media-processing",
+    "minecraft-bukkit-pro",
+    "mobile-security-coder",
+    "n8n-code-python",
+    "performance-testing-review-ai-review",
+    "red-team-tactics",
+    "sarif-parsing",
+    "sast-configuration",
+    "security-audit",
+    "security-auditor",
+    "security-requirement-extraction",
+    "security-review",
+    "security-reviewer",
+    "security-scan",
+    "security-scanning-security-dependencies",
+    "security-scanning-security-hardening",
+    "security-scanning-security-sast",
+    "semgrep-rule-variant-creator",
+    "senior-devops",
+    "senior-qa",
+    "senior-secops",
+    "senior-security",
+    "sharp-edges",
+    "shopify",
+    "shopify-development",
+    "stream-chain",
+    "summon-daem0n",
+    "the-fool",
+    "threat-modeling-expert",
+    "variant-analysis",
+    "vulnerability-scanner",
+    "{fuzzer-name-lowercase}"
+  ],
+  "skills": [
+    {
+      "row_id": "d20b3396a4b9",
+      "skill_name": "Cloudinary Automation",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly flags NOT_RESEARCH and the capability is media management, not research retrieval/evidence collection.",
+      "issues": [
+        "Not research-focused per provided rationale and described functionality."
+      ]
+    },
+    {
+      "row_id": "bba6bd379330",
+      "skill_name": "AWS Penetration Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Why Research-Related explicitly labels it NOT_RESEARCH and does not provide a research framing beyond penetration testing.",
+      "issues": [
+        "Research relevance rationale contradicts inclusion as research-related (marked NOT_RESEARCH)."
+      ]
+    },
+    {
+      "row_id": "414d490534b7",
+      "skill_name": "Ethical Hacking Methodology",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Why Research-Related explicitly labels it NOT_RESEARCH and frames it as a pentesting tool rather than a research skill.",
+      "issues": [
+        "Research relevance rationale contradicts inclusion as research-related (marked NOT_RESEARCH)."
+      ]
+    },
+    {
+      "row_id": "be7672ced365",
+      "skill_name": "IDOR Vulnerability Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Why Research-Related explicitly labels it NOT_RESEARCH and provides no research justification beyond vulnerability testing.",
+      "issues": [
+        "Research relevance rationale contradicts inclusion as research-related (marked NOT_RESEARCH)."
+      ]
+    },
+    {
+      "row_id": "b0a80850c78c",
+      "skill_name": "Linux Privilege Escalation",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Why Research-Related explicitly labels it NOT_RESEARCH and frames it as a pentesting tool with no research-oriented rationale.",
+      "issues": [
+        "Research relevance rationale contradicts inclusion as research-related (marked NOT_RESEARCH)."
+      ]
+    },
+    {
+      "row_id": "1a8780ab0c1a",
+      "skill_name": "Metasploit Framework",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it as NOT_RESEARCH and frames it as a penetration testing/exploitation tool rather than research support.",
+      "issues": [
+        "Function Explanation text appears truncated ('guidance fo')",
+        "Not research-oriented per provided rationale"
+      ]
+    },
+    {
+      "row_id": "fa939ce5f830",
+      "skill_name": "SMTP Penetration Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it NOT_RESEARCH and positions it as a pentesting technique set.",
+      "issues": [
+        "Evidence text appears truncated",
+        "Not research-relevant per provided rationale"
+      ]
+    },
+    {
+      "row_id": "4ae34f84bb34",
+      "skill_name": "SQL Injection Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it NOT_RESEARCH and centers on offensive exploitation activities.",
+      "issues": [
+        "Function Explanation appears truncated ('It provides comp')",
+        "Not research-oriented per provided rationale"
+      ]
+    },
+    {
+      "row_id": "f83d478efc23",
+      "skill_name": "SSH Penetration Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it NOT_RESEARCH and describes a penetration testing methodology.",
+      "issues": [
+        "Evidence text appears truncated",
+        "Not research-relevant per provided rationale"
+      ]
+    },
+    {
+      "row_id": "4dce6912d91e",
+      "skill_name": "red-team-tactics",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 1,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and the evidence includes log clearing/removing evidence, which is not framed as research.",
+      "issues": [
+        "Not research-relevant per provided rationale",
+        "Evidence mentions 'Remove evidence', raising safety/ethics concerns"
+      ]
+    },
+    {
+      "row_id": "c8d27bbe565b",
+      "skill_name": "WebAssessment",
+      "repo": "danielmiessler/Personal_AI_Infrastructure",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Why Research-Related explicitly labels it NOT_RESEARCH and provides no research-oriented justification beyond pentesting.",
+      "issues": [
+        "Research relevance rationale contradicts the requested framing (marked NOT_RESEARCH)."
+      ]
+    },
+    {
+      "row_id": "9ea5cd122157",
+      "skill_name": "AWS Penetration Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "The provided rationale explicitly labels it NOT_RESEARCH and it is primarily offensive security guidance rather than research methodology.",
+      "issues": [
+        "Marked NOT_RESEARCH; theme assignment to research category is questionable.",
+        "Potential dual-use/offensive focus not framed as defensive or scholarly research."
+      ]
+    },
+    {
+      "row_id": "42e71810ff56",
+      "skill_name": "Ethical Hacking Methodology",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says NOT_RESEARCH and the skill is oriented to penetration testing operations/training rather than research practice.",
+      "issues": [
+        "Marked NOT_RESEARCH; categorization as research skill is not supported by the provided rationale."
+      ]
+    },
+    {
+      "row_id": "114c3b66459e",
+      "skill_name": "IDOR Vulnerability Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH; it focuses on vulnerability testing/exploitation guidance.",
+      "issues": [
+        "Marked NOT_RESEARCH; not justified as research skill in the provided rationale."
+      ]
+    },
+    {
+      "row_id": "70ed404d4ffc",
+      "skill_name": "Linux Privilege Escalation",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says NOT_RESEARCH and the skill centers on offensive privilege escalation techniques.",
+      "issues": [
+        "Marked NOT_RESEARCH; research linkage not established."
+      ]
+    },
+    {
+      "row_id": "9f8f31e32ef8",
+      "skill_name": "Metasploit Framework",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says NOT_RESEARCH; it is a penetration testing tool workflow rather than research methodology.",
+      "issues": [
+        "Marked NOT_RESEARCH; offensive tooling focus."
+      ]
+    },
+    {
+      "row_id": "162db73344c2",
+      "skill_name": "SMTP Penetration Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and it focuses on SMTP security testing methods.",
+      "issues": [
+        "Marked NOT_RESEARCH; research connection not supported by the provided rationale."
+      ]
+    },
+    {
+      "row_id": "e1ceeffc2593",
+      "skill_name": "SQL Injection Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says NOT_RESEARCH; content is exploitation-focused vulnerability testing guidance.",
+      "issues": [
+        "Marked NOT_RESEARCH; offensive guidance not framed as research."
+      ]
+    },
+    {
+      "row_id": "c06c78b4dca1",
+      "skill_name": "SSH Penetration Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH; focuses on penetration testing techniques.",
+      "issues": [
+        "Marked NOT_RESEARCH; research relevance not demonstrated."
+      ]
+    },
+    {
+      "row_id": "272962da36b2",
+      "skill_name": "red-team-tactics",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the content is oriented to adversary simulation tactics rather than research workflow.",
+      "issues": [
+        "Marked NOT_RESEARCH; could be reframed for defensive research but that is not provided here."
+      ]
+    },
+    {
+      "row_id": "ae47061c555e",
+      "skill_name": "AWS Penetration Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and the described purpose is penetration testing guidance rather than research workflow.",
+      "issues": [
+        "Marked NOT_RESEARCH; research categorization not supported by the provided rationale."
+      ]
+    },
+    {
+      "row_id": "f1223c280bb3",
+      "skill_name": "Ethical Hacking Methodology",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and describes a security pentesting tool rather than a research skill.",
+      "issues": [
+        "Not research-relevant per provided rationale/theme fit.",
+        "Function text appears truncated but still matches gist."
+      ]
+    },
+    {
+      "row_id": "74caa5d33f28",
+      "skill_name": "IDOR Vulnerability Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and focused on vulnerability exploitation/testing, not research evidence collection.",
+      "issues": [
+        "Primarily offensive security guidance; research rationale is explicitly negative."
+      ]
+    },
+    {
+      "row_id": "09c2ee885883",
+      "skill_name": "Linux Privilege Escalation",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and focused on gaining root access as part of penetration testing.",
+      "issues": [
+        "Offensive security rather than research-oriented workflow."
+      ]
+    },
+    {
+      "row_id": "a7373f66d433",
+      "skill_name": "Metasploit Framework",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and centered on exploitation tooling.",
+      "issues": [
+        "Not research-relevant under the provided rationale."
+      ]
+    },
+    {
+      "row_id": "dc5b60653124",
+      "skill_name": "SMTP Penetration Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and focused on penetration testing methods.",
+      "issues": [
+        "Offensive security scope; research rationale is explicitly negative."
+      ]
+    },
+    {
+      "row_id": "48efe03b18d2",
+      "skill_name": "SQL Injection Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and focused on exploitation of vulnerabilities.",
+      "issues": [
+        "Primarily offensive security; not a research workflow skill."
+      ]
+    },
+    {
+      "row_id": "14a797eb3cf3",
+      "skill_name": "SSH Penetration Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and focused on pentesting activities.",
+      "issues": [
+        "Not research-relevant under provided criteria."
+      ]
+    },
+    {
+      "row_id": "f5ec7a25634e",
+      "skill_name": "red-team-tactics",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and oriented to adversary simulation (including log clearing) rather than research.",
+      "issues": [
+        "Not research-relevant per rationale; includes potentially harmful operational tactics."
+      ]
+    },
+    {
+      "row_id": "ac1150aa9d5f",
+      "skill_name": "flow-nexus-platform",
+      "repo": "ruvnet/claude-flow",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Platform management (auth/deploy/payments/challenges) is primarily operational and not inherently research-related; rationale does not connect to research tasks.",
+      "issues": [
+        "Misclassified as research-supporting without a clear research use case.",
+        "Theme placement under information retrieval/evidence collection is not supported by the description."
+      ]
+    },
+    {
+      "row_id": "ab89d40e119b",
+      "skill_name": "AWS Penetration Testing",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "The provided rationale explicitly labels it NOT_RESEARCH and describes offensive security operations rather than research/evidence collection.",
+      "issues": [
+        "Marked NOT_RESEARCH yet included in research skills list; research rationale is invalid by its own statement.",
+        "High risk domain; not justified as research-oriented from provided text."
+      ]
+    },
+    {
+      "row_id": "e115b135063d",
+      "skill_name": "Ethical Hacking Methodology",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and described as a penetration testing tool/method; no research workflow justification provided.",
+      "issues": [
+        "Not research-relevant per provided rationale",
+        "Function explanation appears truncated (ellipsis), reducing clarity"
+      ]
+    },
+    {
+      "row_id": "1106f8d00eaa",
+      "skill_name": "IDOR Vulnerability Testing",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Explicitly labeled NOT_RESEARCH; described as vulnerability testing rather than a research workflow in the provided rationale.",
+      "issues": [
+        "Not research-relevant per provided rationale",
+        "Function explanation appears truncated (ellipsis)"
+      ]
+    },
+    {
+      "row_id": "cbb56924b578",
+      "skill_name": "Linux Privilege Escalation",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and positioned as penetration testing guidance; no research justification provided.",
+      "issues": [
+        "Not research-relevant per provided rationale",
+        "Function explanation appears truncated (ellipsis)"
+      ]
+    },
+    {
+      "row_id": "dab8c463a00d",
+      "skill_name": "Metasploit Framework",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and framed as a penetration testing exploitation tool rather than a research workflow.",
+      "issues": [
+        "Not research-relevant per provided rationale",
+        "Function explanation appears truncated"
+      ]
+    },
+    {
+      "row_id": "ab5fddd3e229",
+      "skill_name": "SMTP Penetration Testing",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and focuses on offensive security testing rather than research.",
+      "issues": [
+        "Marked NOT_RESEARCH; primarily a pentesting procedure"
+      ]
+    },
+    {
+      "row_id": "33671dd8c7fc",
+      "skill_name": "SQL Injection Testing",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and the content is penetration testing guidance.",
+      "issues": [
+        "Marked NOT_RESEARCH; offensive technique guidance"
+      ]
+    },
+    {
+      "row_id": "9a8d6f3486af",
+      "skill_name": "SSH Penetration Testing",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and the skill focuses on pentesting methods (incl. brute force/tunneling).",
+      "issues": [
+        "Marked NOT_RESEARCH; security testing content rather than research workflow support"
+      ]
+    },
+    {
+      "row_id": "bbd60c4ab2ff",
+      "skill_name": "red-team-tactics",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Explicitly marked NOT_RESEARCH; adversary simulation guidance is not justified as research within provided rationale.",
+      "issues": [
+        "Evidence includes log clearing/removing evidence which raises misuse risk (not a quality metric per se, but indicates problematic scope)",
+        "Not research-relevant per provided rationale"
+      ]
+    },
+    {
+      "row_id": "e91f6e93a7b8",
+      "skill_name": "semgrep-rule-variant-creator",
+      "repo": "trailofbits/skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale claims biological/biomedical research, but the skill is about Semgrep rule porting (software security tooling) with no bio/biomed connection in provided data.",
+      "issues": [
+        "Why Research-Related domain claim (biomedical) unsupported and mismatched to security tooling"
+      ]
+    },
+    {
+      "row_id": "0ec417de97ae",
+      "skill_name": "{fuzzer-name-lowercase}",
+      "repo": "trailofbits/skills",
+      "theme": "01_information_retrieval_evidence_collection",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and it is not an operational skill but a template scaffold.",
+      "issues": [
+        "Not an actual skill; template placeholder"
+      ]
+    },
+    {
+      "row_id": "03fa45670a58",
+      "skill_name": "langsmith-fetch",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and description is clearly a software debugging tool without an explicit research-workflow connection.",
+      "issues": [
+        "Research relevance rationale explicitly indicates not research-related."
+      ]
+    },
+    {
+      "row_id": "a2adfd72f6d7",
+      "skill_name": "summon-daem0n",
+      "repo": "DasBluEyedDevil/Daem0n-MCP",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and provides no research-oriented connection.",
+      "issues": [
+        "No articulated research use; appears to be project tooling guidance."
+      ]
+    },
+    {
+      "row_id": "61cc72058091",
+      "skill_name": "Burp Suite Web Application Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "partial",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH (security/pentest tool) with no research connection provided.",
+      "issues": [
+        "Function Explanation truncated.",
+        "No research relevance rationale."
+      ]
+    },
+    {
+      "row_id": "873ab6fbbb72",
+      "skill_name": "Cross-Site Scripting and HTML Injection Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH; it is a security testing skill without research rationale.",
+      "issues": [
+        "No research linkage; clearly a pentest/security skill."
+      ]
+    },
+    {
+      "row_id": "9fe2ba3119b7",
+      "skill_name": "Pentest Checklist",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and the skill is for security assessment engagements.",
+      "issues": [
+        "Research relevance marked NOT_RESEARCH"
+      ]
+    },
+    {
+      "row_id": "97d3f93c0013",
+      "skill_name": "Red Team Tools and Methodology",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and focuses on offensive security operations.",
+      "issues": [
+        "Research relevance marked NOT_RESEARCH"
+      ]
+    },
+    {
+      "row_id": "bd8915b651c5",
+      "skill_name": "Security Scanning Tools",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH; described capability is security assessment rather than research support.",
+      "issues": [
+        "Research relevance marked NOT_RESEARCH"
+      ]
+    },
+    {
+      "row_id": "a98ccb85da6e",
+      "skill_name": "behavioral-modes",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH; the modes are general workflow behaviors without a research-specific rationale.",
+      "issues": [
+        "No research-specific justification; general assistant behavior tool."
+      ]
+    },
+    {
+      "row_id": "6402c1c000b5",
+      "skill_name": "loki-mode",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 2,
+      "function_accuracy": "partial",
+      "reason": "The provided rationale explicitly labels it NOT_RESEARCH and the described functionality is product/ops automation rather than research-specific.",
+      "issues": [
+        "Research relevance marked NOT_RESEARCH",
+        "Function explanation missing major SKILL.md features/constraints"
+      ]
+    },
+    {
+      "row_id": "feee8990ff23",
+      "skill_name": "security-reviewer",
+      "repo": "Jeffallan/claude-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale says not research-related and the described functionality is security engineering rather than research workflow support.",
+      "issues": [
+        "Not research-oriented for literature review/citation theme.",
+        "Provided evidence is just trigger keywords, not demonstrating research linkage."
+      ]
+    },
+    {
+      "row_id": "9a3acd05bae7",
+      "skill_name": "the-fool",
+      "repo": "Jeffallan/claude-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale labels it as a security/pentest tool, which does not match the description and does not substantiate research relevance.",
+      "issues": [
+        "Why Research-Related is mismatched with the actual skill purpose.",
+        "Could be research-adjacent (critical appraisal), but rationale does not make that case."
+      ]
+    },
+    {
+      "row_id": "ae2ce194f43e",
+      "skill_name": "senior-devops",
+      "repo": "alirezarezvani/claude-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and DevOps is primarily infrastructure/operations rather than research.",
+      "issues": [
+        "Research-related rationale is marked NOT_RESEARCH and is not supported by the described capability."
+      ]
+    },
+    {
+      "row_id": "6cb3fe145e83",
+      "skill_name": "senior-qa",
+      "repo": "alirezarezvani/claude-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it NOT_RESEARCH and it is a software QA/testing skill rather than a research workflow skill.",
+      "issues": [
+        "Marked as NOT_RESEARCH; does not support literature review/writing theme."
+      ]
+    },
+    {
+      "row_id": "081cd2cca30d",
+      "skill_name": "senior-secops",
+      "repo": "alirezarezvani/claude-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly states NOT_RESEARCH and the described capability is security operations/pentesting rather than research support.",
+      "issues": [
+        "Research-related justification contradicts the NOT_RESEARCH label and provides no research linkage."
+      ]
+    },
+    {
+      "row_id": "e3ad2321887a",
+      "skill_name": "senior-security",
+      "repo": "alirezarezvani/claude-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the skill is a security engineering toolkit, not a research/literature workflow aid.",
+      "issues": [
+        "No credible research-workflow connection beyond general technical analysis."
+      ]
+    },
+    {
+      "row_id": "0277d2fa6dff",
+      "skill_name": "Agents",
+      "repo": "danielmiessler/Personal_AI_Infrastructure",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "partial",
+      "reason": "Rationale explicitly states NOT_RESEARCH and provides no research linkage.",
+      "issues": [
+        "Missing key limitation: not for agent teams/swarms (use Delegation/TeamCreate).",
+        "Research relevance rationale explicitly indicates not research-related."
+      ]
+    },
+    {
+      "row_id": "9730dd4ae403",
+      "skill_name": "Fabric",
+      "repo": "danielmiessler/Personal_AI_Infrastructure",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH (security/pentest tool), so no research connection is asserted.",
+      "issues": [
+        "Marked NOT_RESEARCH despite being placed in a literature review theme; potential categorization mismatch."
+      ]
+    },
+    {
+      "row_id": "71e93fdcc34d",
+      "skill_name": "Burp Suite Web Application Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says NOT_RESEARCH (security/pentest tool) and does not justify a research connection.",
+      "issues": [
+        "Research relevance is not established in the provided rationale."
+      ]
+    },
+    {
+      "row_id": "688a0a87471d",
+      "skill_name": "Pentest Checklist",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and it is clearly a security/pentesting workflow rather than research.",
+      "issues": [
+        "Not research-relevant per provided rationale and description."
+      ]
+    },
+    {
+      "row_id": "1d2467266414",
+      "skill_name": "Red Team Tools and Methodology",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the content is security/red-teaming rather than research methods.",
+      "issues": [
+        "Not research-relevant per provided rationale."
+      ]
+    },
+    {
+      "row_id": "c9551aecf7dd",
+      "skill_name": "Security Scanning Tools",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the skill is operational security scanning guidance.",
+      "issues": [
+        "Not research-relevant per provided rationale."
+      ]
+    },
+    {
+      "row_id": "b9f2e838214a",
+      "skill_name": "Top 100 Web Vulnerabilities Reference",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "partial",
+      "reason": "Marked NOT_RESEARCH and the rationale provides no research-specific linkage beyond security/pentest usage.",
+      "issues": [
+        "Function explanation is truncated relative to SKILL.md scope (taxonomy + broader platform coverage).",
+        "Research relevance justification is explicitly negative and not reconciled with theme."
+      ]
+    },
+    {
+      "row_id": "0932f29f0095",
+      "skill_name": "behavioral-modes",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says NOT_RESEARCH and provides no research-specific justification.",
+      "issues": [
+        "Research relevance is not established in the provided rationale."
+      ]
+    },
+    {
+      "row_id": "25851bd9472b",
+      "skill_name": "security-review",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and it is primarily software security engineering.",
+      "issues": [
+        "Not research-relevant per provided rationale."
+      ]
+    },
+    {
+      "row_id": "07a81ad4743e",
+      "skill_name": "shopify-development",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "partial",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the description is e-commerce platform development.",
+      "issues": [
+        "Function Explanation appears truncated/incomplete relative to SKILL.md.",
+        "Not research-relevant per provided rationale."
+      ]
+    },
+    {
+      "row_id": "b92df92bc04c",
+      "skill_name": "vulnerability-scanner",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and the description is security/pentest-oriented without research framing.",
+      "issues": [
+        "Research relevance rationale is explicitly negative."
+      ]
+    },
+    {
+      "row_id": "f951a25629fe",
+      "skill_name": "Burp Suite Web Application Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "partial",
+      "reason": "Marked NOT_RESEARCH and focused on pentesting tool usage without research justification.",
+      "issues": [
+        "Function explanation truncated."
+      ]
+    },
+    {
+      "row_id": "aa42f1b71724",
+      "skill_name": "Cross-Site Scripting and HTML Injection Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly states NOT_RESEARCH and the skill is focused on pentesting/exploitation rather than research workflows.",
+      "issues": [
+        "Not research-focused per provided rationale."
+      ]
+    },
+    {
+      "row_id": "47ef8f4495ad",
+      "skill_name": "Top 100 Web Vulnerabilities Reference",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it as not research-related (security/pentest reference), and the description is security-domain guidance rather than research workflow support.",
+      "issues": [
+        "Not research-relevant per provided rationale; classification conflicts with research-skill framing."
+      ]
+    },
+    {
+      "row_id": "db6cd810f84f",
+      "skill_name": "behavioral-modes",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and described as dev/ops workflow modes; no research linkage is provided.",
+      "issues": [
+        "Research relevance rationale explicitly negative."
+      ]
+    },
+    {
+      "row_id": "653c013f9e80",
+      "skill_name": "loki-mode",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly states NOT_RESEARCH and the described functionality is broad product automation rather than research workflow support.",
+      "issues": [
+        "Not research-focused per provided rationale.",
+        "Requires dangerous permissions flag (operational risk), though not part of the requested scoring dimensions."
+      ]
+    },
+    {
+      "row_id": "d95409ca3252",
+      "skill_name": "vulnerability-scanner",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it as not research-related (security/pentest), and description is security analysis guidance.",
+      "issues": [
+        "Not research-relevant under the provided criteria."
+      ]
+    },
+    {
+      "row_id": "43168391f9b3",
+      "skill_name": "google-adk-python",
+      "repo": "mrgoonie/claudekit-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "partial",
+      "reason": "Rationale labels it NOT_RESEARCH and frames it as an agent development toolkit, not a research skill in itself.",
+      "issues": [
+        "Function explanation is incomplete relative to SKILL.md 'When to Use This Skill' section."
+      ]
+    },
+    {
+      "row_id": "333c6fc60135",
+      "skill_name": "media-processing",
+      "repo": "mrgoonie/claudekit-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale states NOT_RESEARCH and describes general media automation without a specific research use case.",
+      "issues": []
+    },
+    {
+      "row_id": "73093e1722dc",
+      "skill_name": "shopify",
+      "repo": "mrgoonie/claudekit-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says NOT_RESEARCH and the description is commerce platform development, not research.",
+      "issues": []
+    },
+    {
+      "row_id": "67fda535b745",
+      "skill_name": "Verification & Quality Assurance",
+      "repo": "ruvnet/claude-flow",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it NOT_RESEARCH as a software development tool; no research-specific argument is provided.",
+      "issues": [
+        "Research relevance explicitly denied."
+      ]
+    },
+    {
+      "row_id": "c15d4b3a966f",
+      "skill_name": "security-audit",
+      "repo": "ruvnet/claude-flow",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it NOT_RESEARCH (security/pentest tool) with no research rationale provided.",
+      "issues": [
+        "Research relevance explicitly denied."
+      ]
+    },
+    {
+      "row_id": "8392c3807087",
+      "skill_name": "stream-chain",
+      "repo": "ruvnet/claude-flow",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and does not connect pipeline tooling to research tasks.",
+      "issues": [
+        "Research relevance not supported (explicit NOT_RESEARCH)."
+      ]
+    },
+    {
+      "row_id": "0be7c1999241",
+      "skill_name": "Pentest Checklist",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels NOT_RESEARCH and the skill is security testing methodology, not research-oriented as stated.",
+      "issues": [
+        "Not research-relevant per provided rationale."
+      ]
+    },
+    {
+      "row_id": "cfb2e5f74b1e",
+      "skill_name": "Red Team Tools and Methodology",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly states it is not research-related and the skill is oriented to offensive security operations rather than literature review research.",
+      "issues": [
+        "Not research-relevant for the stated theme."
+      ]
+    },
+    {
+      "row_id": "782fed1f5963",
+      "skill_name": "Security Scanning Tools",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly flags not research-related; the skill is operational security scanning rather than research synthesis.",
+      "issues": [
+        "Not research-relevant for the stated theme."
+      ]
+    },
+    {
+      "row_id": "e5c02ffff5bf",
+      "skill_name": "Top 100 Web Vulnerabilities Reference",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale states NOT_RESEARCH and the capability is security reference/pentest education, not research workflow support.",
+      "issues": [
+        "Not research-relevant per provided rationale"
+      ]
+    },
+    {
+      "row_id": "8b0e39484e00",
+      "skill_name": "application-performance-performance-optimization",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the described function is performance engineering.",
+      "issues": [
+        "No research connection indicated."
+      ]
+    },
+    {
+      "row_id": "b6e1a62086ff",
+      "skill_name": "attack-tree-construction",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly states NOT_RESEARCH; the function is security threat modeling/pentest communication.",
+      "issues": [
+        "Not research-related as framed."
+      ]
+    },
+    {
+      "row_id": "90362e5f7109",
+      "skill_name": "azure-ai-openai-dotnet",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 2,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale explicitly states NOT_RESEARCH and the description is SDK/client library usage for OpenAI/Azure OpenAI features.",
+      "issues": [
+        "Missing SKILL.md prevents function verification.",
+        "Not research-related per provided rationale."
+      ]
+    },
+    {
+      "row_id": "49d314d0687f",
+      "skill_name": "dotnet-architect",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale labels it NOT_RESEARCH and the function is clearly software architecture/development oriented.",
+      "issues": [
+        "Missing/empty SKILL.md content prevents verification."
+      ]
+    },
+    {
+      "row_id": "bce7376c18a4",
+      "skill_name": "ios-developer",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 2,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH (web/mobile development tool).",
+      "issues": [
+        "Missing SKILL.md content prevents verification.",
+        "Not research-related per provided rationale."
+      ]
+    },
+    {
+      "row_id": "130b8148be04",
+      "skill_name": "loki-mode",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH (security/pentest tool), despite mention of 'research-enhanced' in evidence.",
+      "issues": [
+        "Research relevance rationale contradicts the skill’s broad multi-agent scope/evidence, but per provided rationale it is NOT_RESEARCH."
+      ]
+    },
+    {
+      "row_id": "5c1513ee9304",
+      "skill_name": "minecraft-bukkit-pro",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 1,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale claims it helps with academic papers, but the function is clearly Minecraft plugin development; no support provided.",
+      "issues": [
+        "Why Research-Related is inconsistent with the function domain.",
+        "Missing SKILL.md content prevents verification."
+      ]
+    },
+    {
+      "row_id": "344a2c24d88e",
+      "skill_name": "mobile-security-coder",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 2,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH (software development tool).",
+      "issues": [
+        "Missing SKILL.md content prevents verification.",
+        "Not research-related per provided rationale."
+      ]
+    },
+    {
+      "row_id": "52e0f3787805",
+      "skill_name": "performance-testing-review-ai-review",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale claims retrieval-grounded research outputs, but the skill description is about code review and DevOps, not research RAG/citation grounding.",
+      "issues": [
+        "Why Research-Related rationale does not match the described skill focus (code review vs research grounding).",
+        "Function Explanation appears truncated ('GPT-5, C')."
+      ]
+    },
+    {
+      "row_id": "c0faac4b6a45",
+      "skill_name": "sast-configuration",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says not research-related; the skill is security engineering focused, not literature review research.",
+      "issues": [
+        "Not research-relevant for the stated theme."
+      ]
+    },
+    {
+      "row_id": "4abc3adcf032",
+      "skill_name": "security-auditor",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 2,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale explicitly marks not research-related; focus is DevSecOps/security compliance rather than research.",
+      "issues": [
+        "Missing/empty SKILL.md prevents verification.",
+        "Not research-relevant for the stated theme."
+      ]
+    },
+    {
+      "row_id": "c5b855f8d0fc",
+      "skill_name": "security-review",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly says not research-related; it’s a software security review aid, not a research skill for literature review.",
+      "issues": [
+        "Not research-relevant for the stated theme."
+      ]
+    },
+    {
+      "row_id": "497768eca310",
+      "skill_name": "security-scanning-security-hardening",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks not research-related; the skill is security operations/hardening.",
+      "issues": [
+        "Not research-relevant for the stated theme."
+      ]
+    },
+    {
+      "row_id": "549aa64c32ae",
+      "skill_name": "security-scanning-security-sast",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 2,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale explicitly marks not research-related; SAST is a software security practice rather than literature review research.",
+      "issues": [
+        "Missing/empty SKILL.md prevents verification.",
+        "Not research-relevant for the stated theme."
+      ]
+    },
+    {
+      "row_id": "8c62dc917793",
+      "skill_name": "sharp-edges",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale states no clear research relevance and the described function is software risk identification, not research/literature review.",
+      "issues": [
+        "Not research-relevant for the stated theme."
+      ]
+    },
+    {
+      "row_id": "235ab7342333",
+      "skill_name": "shopify-development",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 2,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale explicitly marks it NOT_RESEARCH and the described capability is Shopify app/theme development rather than research workflow support.",
+      "issues": [
+        "Missing/blank SKILL.md description prevents verification",
+        "Not research-relevant per provided rationale"
+      ]
+    },
+    {
+      "row_id": "70d34eb7f941",
+      "skill_name": "threat-modeling-expert",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale states NOT_RESEARCH and no research-specific use is provided; it is security engineering oriented.",
+      "issues": [
+        "Not research-relevant per provided rationale"
+      ]
+    },
+    {
+      "row_id": "2cb22017d4b2",
+      "skill_name": "audit-prep-assistant",
+      "repo": "trailofbits/skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale claims retrieval-augmented generation grounding research outputs, but the provided SKILL.md/function description is about security review preparation and does not mention RAG or research grounding.",
+      "issues": [
+        "Research relevance rationale is unsupported by the provided SKILL.md/description (introduces RAG/verified sources claim not evidenced)."
+      ]
+    },
+    {
+      "row_id": "80bd52e71ef7",
+      "skill_name": "dwarf-expert",
+      "repo": "trailofbits/skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale labels it NOT_RESEARCH and gives no research linkage; it is framed as a software development/debugging tool.",
+      "issues": [
+        "Research rationale is explicitly NOT_RESEARCH."
+      ]
+    },
+    {
+      "row_id": "66e141e8216a",
+      "skill_name": "entry-point-analyzer",
+      "repo": "trailofbits/skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 2,
+      "function_accuracy": "partial",
+      "reason": "Rationale says no clear research relevance and does not provide research-specific justification.",
+      "issues": [
+        "Function explanation omits notable SKILL.md details (supported ecosystems and trigger contexts).",
+        "Research rationale is NOT_RESEARCH/unsupported."
+      ]
+    },
+    {
+      "row_id": "3de3066e235d",
+      "skill_name": "sharp-edges",
+      "repo": "trailofbits/skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and frames it as a software/security design review tool rather than a research activity.",
+      "issues": [
+        "Why Research-Related marked NOT_RESEARCH, so research linkage is absent by design.",
+        "Function Explanation text appears truncated ('Triggers: footgu')."
+      ]
+    },
+    {
+      "row_id": "d89667bd2093",
+      "skill_name": "variant-analysis",
+      "repo": "trailofbits/skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale states no clear research relevance and provides no argument tying the capability to research tasks.",
+      "issues": [
+        "Why Research-Related provides no research connection despite potential applicability to empirical security research."
+      ]
+    },
+    {
+      "row_id": "fccc923a5d88",
+      "skill_name": "field-agent-deployment",
+      "repo": "treasure-data/td-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH as a software development tool, not a research method or research-support function.",
+      "issues": [
+        "Why Research-Related marked NOT_RESEARCH."
+      ]
+    },
+    {
+      "row_id": "bbcd1871143d",
+      "skill_name": "field-agent-visualization",
+      "repo": "treasure-data/td-skills",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH as a software development tool; no research-specific justification is provided.",
+      "issues": [
+        "Why Research-Related marked NOT_RESEARCH."
+      ]
+    },
+    {
+      "row_id": "09382da86fa3",
+      "skill_name": "code-reviewer",
+      "repo": "u9401066/pubmed-search-mcp",
+      "theme": "02_literature_review_writing_citation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH as a software development tool, without any research-oriented framing.",
+      "issues": [
+        "Why Research-Related marked NOT_RESEARCH."
+      ]
+    },
+    {
+      "row_id": "56128993d941",
+      "skill_name": "Mistral AI Automation",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly states NOT_RESEARCH and does not connect to scientific experiments/benchmarking as framed.",
+      "issues": [
+        "Research relevance explicitly negated; classification does not align with research-skills set."
+      ]
+    },
+    {
+      "row_id": "06065b926032",
+      "skill_name": "andrew-kane-gem-writer",
+      "repo": "EveryInc/every-marketplace",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "The rationale explicitly marks it as not research and it is standard software library authoring guidance.",
+      "issues": [
+        "Function Explanation appears truncated mid-sentence, though still aligns with SKILL.md."
+      ]
+    },
+    {
+      "row_id": "c219b46d08b8",
+      "skill_name": "Broken Authentication Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly states not research; it is security testing guidance rather than research methodology.",
+      "issues": []
+    },
+    {
+      "row_id": "5b63e13c838b",
+      "skill_name": "Cloud Penetration Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks not research; content is operational security assessment.",
+      "issues": []
+    },
+    {
+      "row_id": "561481f8faf4",
+      "skill_name": "continuous-learning",
+      "repo": "affaan-m/everything-claude-code",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 4,
+      "function_accuracy": "accurate",
+      "reason": "Rationale marks NOT_RESEARCH and the skill is about developer workflow meta-learning, not research experiments/benchmarks.",
+      "issues": []
+    },
+    {
+      "row_id": "f60fd9c00d77",
+      "skill_name": "Broken Authentication Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it as NOT_RESEARCH (security testing) and provides no research-oriented justification.",
+      "issues": [
+        "Marked as NOT_RESEARCH; research relevance rationale is not provided/justified."
+      ]
+    },
+    {
+      "row_id": "4154e729afba",
+      "skill_name": "Cloud Penetration Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it as NOT_RESEARCH (penetration testing) with no research linkage.",
+      "issues": [
+        "Marked as NOT_RESEARCH; no research-specific rationale."
+      ]
+    },
+    {
+      "row_id": "7167ddf33e71",
+      "skill_name": "Broken Authentication Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "partial",
+      "reason": "The rationale explicitly labels it NOT_RESEARCH and the skill is security vulnerability testing rather than research evaluation/benchmarking as framed.",
+      "issues": [
+        "Function explanation is truncated/incomplete.",
+        "Not research-relevant per provided rationale."
+      ]
+    },
+    {
+      "row_id": "b450a4bc753b",
+      "skill_name": "Cloud Penetration Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part1",
+      "overall_quality": 3,
+      "function_accuracy": "partial",
+      "reason": "The rationale explicitly labels it NOT_RESEARCH; it is security assessment work rather than research benchmarking/validation in the provided framing.",
+      "issues": [
+        "Function explanation is truncated/incomplete.",
+        "Not research-relevant per provided rationale."
+      ]
+    },
+    {
+      "row_id": "62e8ec2145d5",
+      "skill_name": "Broken Authentication Testing",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Marked NOT_RESEARCH and described as security testing; no research workflow connection is argued.",
+      "issues": [
+        "Not research-relevant per provided rationale"
+      ]
+    },
+    {
+      "row_id": "9e895d1a919e",
+      "skill_name": "Cloud Penetration Testing",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "03_experiment_benchmark_reproducibility_validation_part2",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Explicitly labeled NOT_RESEARCH and framed purely as penetration testing without research context.",
+      "issues": [
+        "Not research-relevant per provided rationale"
+      ]
+    },
+    {
+      "row_id": "9d434b4ebfb5",
+      "skill_name": "continuous-learning-v2",
+      "repo": "affaan-m/everything-claude-code",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly labels it NOT_RESEARCH and does not connect to data analysis or research tasks.",
+      "issues": [
+        "Not research-relevant per provided rationale; meta-learning/automation system rather than research method."
+      ]
+    },
+    {
+      "row_id": "ffed88bf2150",
+      "skill_name": "security-scan",
+      "repo": "affaan-m/everything-claude-code",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks as NOT_RESEARCH; it is security/config auditing, not research or evidence interpretation.",
+      "issues": [
+        "Not research-relevant per provided rationale; security tooling."
+      ]
+    },
+    {
+      "row_id": "578b6c2f927e",
+      "skill_name": "azure-mgmt-apicenter-py",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 2,
+      "function_accuracy": "cannot_verify",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the function is infrastructure/API governance rather than research analysis.",
+      "issues": [
+        "Missing/blank SKILL.md description prevents verification.",
+        "Research relevance not supported by the provided rationale (explicit NOT_RESEARCH)."
+      ]
+    },
+    {
+      "row_id": "2ec247b8b8dd",
+      "skill_name": "framework-migration-code-migrate",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale states NOT_RESEARCH; framework migration is software engineering maintenance, not research analysis.",
+      "issues": [
+        "Theme/category mismatch with migration tooling.",
+        "Research relevance explicitly denied."
+      ]
+    },
+    {
+      "row_id": "a469a20a785d",
+      "skill_name": "frontend-mobile-security-xss-scan",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale states NOT_RESEARCH; vulnerability scanning is security engineering, not research data analysis.",
+      "issues": [
+        "Theme/category mismatch with security scanning.",
+        "Research relevance explicitly denied."
+      ]
+    },
+    {
+      "row_id": "51c74d1efcc2",
+      "skill_name": "n8n-code-python",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale states NOT_RESEARCH; workflow automation coding is not research data analysis/evidence interpretation.",
+      "issues": [
+        "Theme/category mismatch with workflow automation tooling.",
+        "Research relevance explicitly denied."
+      ]
+    },
+    {
+      "row_id": "6111e9bf86c5",
+      "skill_name": "security-requirement-extraction",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the task is requirements engineering from threat models, not research data analysis.",
+      "issues": [
+        "Theme/research framing inconsistent with provided NOT_RESEARCH rationale"
+      ]
+    },
+    {
+      "row_id": "7b9205dd4399",
+      "skill_name": "security-scanning-security-dependencies",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 2,
+      "function_accuracy": "partial",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and focuses on security dependency scanning rather than research/evidence interpretation.",
+      "issues": [
+        "SKILL.md description truncated/ellipsized, limiting verification",
+        "Theme/research framing mismatch"
+      ]
+    },
+    {
+      "row_id": "aa618d4bf005",
+      "skill_name": "fuzzing-obstacles",
+      "repo": "trailofbits/skills",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and focuses on fuzzing/security testing, not data analysis/evidence interpretation research.",
+      "issues": [
+        "Theme/research framing mismatch with stated NOT_RESEARCH rationale"
+      ]
+    },
+    {
+      "row_id": "cbdd88b97e0e",
+      "skill_name": "sarif-parsing",
+      "repo": "trailofbits/skills",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 2,
+      "function_accuracy": "partial",
+      "reason": "Rationale explicitly marks NOT_RESEARCH; this is security tooling result processing rather than research evidence interpretation.",
+      "issues": [
+        "Misses/does not state the key constraint: does NOT run scans (per SKILL.md)",
+        "Function explanation text appears cut off",
+        "Theme/research framing mismatch"
+      ]
+    },
+    {
+      "row_id": "b943e7ac3a8b",
+      "skill_name": "security-requirement-extraction",
+      "repo": "wshobson/agents",
+      "theme": "04_data_analysis_and_evidence_interpretation",
+      "overall_quality": 3,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks NOT_RESEARCH and the capability is security requirements engineering, not research analysis.",
+      "issues": [
+        "Duplicate skill name across repos may cause catalog confusion",
+        "Theme/research framing mismatch with stated NOT_RESEARCH rationale"
+      ]
+    },
+    {
+      "row_id": "2500317b0f67",
+      "skill_name": "File Path Traversal Testing",
+      "repo": "ForaeFactory/antigravity-skills",
+      "theme": "05_research_operations_and_workflow_support",
+      "overall_quality": 1,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly marks it NOT_RESEARCH and describes offensive security exploitation rather than research support.",
+      "issues": [
+        "Not research-relevant per provided rationale; focuses on exploitation/testing of vulnerabilities."
+      ]
+    },
+    {
+      "row_id": "2dc4754dfc76",
+      "skill_name": "File Path Traversal Testing",
+      "repo": "hangoclong/skills-antigravity-awesome",
+      "theme": "05_research_operations_and_workflow_support",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly indicates it is a security pentesting capability and not research-related.",
+      "issues": [
+        "Not research-relevant under the provided rationale (explicitly marked NOT_RESEARCH).",
+        "Potentially enables offensive security exploitation rather than research operations."
+      ]
+    },
+    {
+      "row_id": "8ca8c858bf1d",
+      "skill_name": "File Path Traversal Testing",
+      "repo": "huysynf/antigravity-awesome-skills",
+      "theme": "05_research_operations_and_workflow_support",
+      "overall_quality": 2,
+      "function_accuracy": "accurate",
+      "reason": "Rationale explicitly states it is not research-related and is for security penetration testing/exploitation.",
+      "issues": [
+        "Not research-relevant under the provided rationale (explicitly marked NOT_RESEARCH).",
+        "Potentially enables offensive security exploitation rather than research operations."
+      ]
+    },
+    {
+      "row_id": "736a80b3df3c",
+      "skill_name": "File Path Traversal Testing",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "theme": "05_research_operations_and_workflow_support",
+      "overall_quality": 2,
+      "function_accuracy": "partial",
+      "reason": "Rationale explicitly states it is not research-related and is for directory traversal/LFI attack testing.",
+      "issues": [
+        "SKILL.md and function explanation are truncated; full comparison not possible.",
+        "Not research-relevant per provided rationale (explicitly marked NOT_RESEARCH).",
+        "Potentially enables offensive security exploitation rather than research operations."
+      ]
+    }
+  ]
+}
