@@ -77,16 +77,17 @@ research-skills/
 ├── relevance_review.html                   # Interactive review page
 ├── deploy_skills.py                        # Platform deployment script
 ├── generate_catalog.py                     # Catalog generator
+├── build_relevance_page.py                 # Interactive review page generator
+├── translate_catalog.py                    # Chinese catalog translator (requires API key)
 ├── multidim_audit.json                     # Audit database (1,408 entries)
 ├── dedup_results.json                      # Deduplication results
 ├── domain_mapping.json                     # Domain normalization (979 → 50)
+├── credibility_audit_report.json           # Credibility verification results
 ├── Final_Research_Skills_Thematic_Split/   # Theme documents (source data)
 ├── Final_Research_Skills_Link_Downloads_By_Theme_LATEST/
 │   └── <theme>/<owner__repo>/<skill>/SKILL.md  # 2,062 skill files
-├── docs/                                   # Detailed documentation
-│   ├── SCRIPTS_REFERENCE.md                #   All 42 scripts reference
-│   └── ARCHITECTURE.md                     #   Pipeline architecture
-└── scripts/                                # Evidence library refresh pipeline
+└── docs/
+    └── ARCHITECTURE.md                     # Pipeline architecture
 ```
 
 ## Audit Quality
@@ -115,24 +116,22 @@ See [CROSS_PLATFORM_COMPATIBILITY.md](CROSS_PLATFORM_COMPATIBILITY.md) for full 
 
 ## For Developers
 
-### Core Scripts
+### Scripts
 
 | Script | Purpose |
 |--------|---------|
 | `deploy_skills.py` | Deploy skills to OpenClaw/IronClaw with name normalization |
 | `generate_catalog.py` | Generate SKILL_CATALOG.md from theme docs + audit data |
-| `translate_catalog.py` | Translate catalog to Chinese (requires API key) |
 | `build_relevance_page.py` | Generate interactive review HTML |
-| `normalize_domains.py` | Domain normalization (979 → 50 categories) |
-
-For the complete list of 42+ scripts (audit, data collection, preprocessing, fixes), see [docs/SCRIPTS_REFERENCE.md](docs/SCRIPTS_REFERENCE.md).
+| `translate_catalog.py` | Translate catalog to Chinese (requires OpenAI API key) |
 
 ### Environment Setup
 
 ```bash
 pip install -r requirements.txt
+# For translate_catalog.py only:
 cp .env.example .env
-# Edit .env with your API key (needed only for audit/translation scripts)
+# Edit .env with your OpenAI API key
 ```
 
 ## License
