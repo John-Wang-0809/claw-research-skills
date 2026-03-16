@@ -23,13 +23,10 @@ A curated catalog of [Agent Skills](https://github.com/anthropics/skills) (SKILL
 
 - **[SKILL_CATALOG.md](SKILL_CATALOG.md)** — Full English catalog (Skill / Description / Tier / Domain / Value / URL)
 - **[科研技能目录.md](科研技能目录.md)** — Chinese translation
-- **[relevance_review.html](relevance_review.html)** — Interactive browser-based review (open locally)
 
 ### Deploy to OpenClaw / IronClaw
 
 ```bash
-pip install -r requirements.txt
-
 # Generate deployment directories
 python deploy_skills.py                    # Both platforms
 python deploy_skills.py --target openclaw  # OpenClaw only
@@ -43,7 +40,7 @@ cp -r openclaw_deploy/* ~/.openclaw/skills/
 # IronClaw output includes activation blocks for smart skill selection
 ```
 
-All 1,391 deployed names comply with the [Agent Skills specification](https://agentskills.io/specification) (`[a-z0-9-]`, max 64 chars). See [CROSS_PLATFORM_COMPATIBILITY.md](CROSS_PLATFORM_COMPATIBILITY.md) for details.
+All 1,391 deployed names comply with the [Agent Skills specification](https://agentskills.io/specification) (`[a-z0-9-]`, max 64 chars).
 
 ### Use a Single Skill
 
@@ -74,20 +71,11 @@ Theme documents are in [`Final_Research_Skills_Thematic_Split/`](Final_Research_
 research-skills/
 ├── SKILL_CATALOG.md                        # English catalog (1,367 skills)
 ├── 科研技能目录.md                          # Chinese catalog
-├── relevance_review.html                   # Interactive review page
 ├── deploy_skills.py                        # Platform deployment script
-├── generate_catalog.py                     # Catalog generator
-├── build_relevance_page.py                 # Interactive review page generator
-├── translate_catalog.py                    # Chinese catalog translator (requires API key)
 ├── multidim_audit.json                     # Audit database (1,408 entries)
-├── dedup_results.json                      # Deduplication results
-├── domain_mapping.json                     # Domain normalization (979 → 50)
-├── credibility_audit_report.json           # Credibility verification results
 ├── Final_Research_Skills_Thematic_Split/   # Theme documents (source data)
-├── Final_Research_Skills_Link_Downloads_By_Theme_LATEST/
-│   └── <theme>/<owner__repo>/<skill>/SKILL.md  # 2,062 skill files
-└── docs/
-    └── ARCHITECTURE.md                     # Pipeline architecture
+└── Final_Research_Skills_Link_Downloads_By_Theme_LATEST/
+    └── <theme>/<owner__repo>/<skill>/SKILL.md  # 2,062 skill files
 ```
 
 ## Audit Quality
@@ -99,8 +87,6 @@ Each skill was evaluated across 4 dimensions:
 - **added_value** — Whether the skill provides unique value (high/medium/low)
 - **doc_completeness** — Quality of documentation
 
-See [CREDIBILITY_AUDIT.md](CREDIBILITY_AUDIT.md) and [Research-Skills-Audit-Report.md](Research-Skills-Audit-Report.md) for methodology.
-
 ## Cross-Platform Compatibility
 
 Skills follow the [Anthropic Agent Skills open standard](https://github.com/anthropics/skills) (YAML frontmatter + Markdown body). ~90% work directly on any compatible platform without modification.
@@ -111,28 +97,6 @@ Skills follow the [Anthropic Agent Skills open standard](https://github.com/anth
 | OpenClaw | Compatible — use `deploy_skills.py` for directory conversion |
 | IronClaw | Compatible — deployment includes `activation` blocks |
 | OpenAI Codex CLI | Compatible (same standard) |
-
-See [CROSS_PLATFORM_COMPATIBILITY.md](CROSS_PLATFORM_COMPATIBILITY.md) for full analysis.
-
-## For Developers
-
-### Scripts
-
-| Script | Purpose |
-|--------|---------|
-| `deploy_skills.py` | Deploy skills to OpenClaw/IronClaw with name normalization |
-| `generate_catalog.py` | Generate SKILL_CATALOG.md from theme docs + audit data |
-| `build_relevance_page.py` | Generate interactive review HTML |
-| `translate_catalog.py` | Translate catalog to Chinese (requires OpenAI API key) |
-
-### Environment Setup
-
-```bash
-pip install -r requirements.txt
-# For translate_catalog.py only:
-cp .env.example .env
-# Edit .env with your OpenAI API key
-```
 
 ## License
 
