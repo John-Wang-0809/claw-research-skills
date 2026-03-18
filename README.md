@@ -72,7 +72,7 @@ research-skills/
 ├── SKILL_CATALOG.md                        # English catalog (1,367 skills)
 ├── SKILL_CATALOG_CN.md                          # Chinese catalog
 ├── deploy_skills.py                        # Platform deployment script
-├── dedup_results.json                      # Deduplication results
+├── dedup_results.json                      # Deduplication results (required by deploy_skills.py)
 ├── multidim_audit.json                     # Audit database (1,408 entries)
 ├── Final_Research_Skills_Thematic_Split/   # Theme documents (source data)
 └── Final_Research_Skills_Link_Downloads_By_Theme_LATEST/
@@ -105,7 +105,7 @@ This project is [MIT licensed](LICENSE). Individual SKILL.md files retain the li
 
 ## Attribution
 
-All skills in this catalog originate from open-source GitHub repositories. Each skill entry in [SKILL_CATALOG.md](SKILL_CATALOG.md) includes a direct URL to the original SKILL.md file on GitHub. Deployed skills also include `metadata.source_repo` in their frontmatter for traceability.
+All skills in this catalog originate from open-source GitHub repositories. Each skill entry in [SKILL_CATALOG.md](SKILL_CATALOG.md) includes a direct URL to the original SKILL.md file on GitHub. Deployed skills include `metadata.source_repo` (e.g. `owner/repo`) and `metadata.source_url` (e.g. `https://github.com/owner/repo`) in their frontmatter for traceability.
 
 <details>
 <summary><strong>Source Repositories (60)</strong></summary>
