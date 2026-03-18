@@ -595,7 +595,10 @@ def deploy(args):
             continue
 
         # Build metadata (source_repo always; original_name only if changed)
-        metadata = {'source_repo': repo}
+        metadata = {
+            'source_repo': repo,
+            'source_url': f'https://github.com/{repo}',
+        }
         if out_name != skill:
             metadata['original_name'] = skill
 

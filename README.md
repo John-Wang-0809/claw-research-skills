@@ -72,6 +72,7 @@ research-skills/
 ├── SKILL_CATALOG.md                        # English catalog (1,367 skills)
 ├── SKILL_CATALOG_CN.md                          # Chinese catalog
 ├── deploy_skills.py                        # Platform deployment script
+├── dedup_results.json                      # Deduplication results
 ├── multidim_audit.json                     # Audit database (1,408 entries)
 ├── Final_Research_Skills_Thematic_Split/   # Theme documents (source data)
 └── Final_Research_Skills_Link_Downloads_By_Theme_LATEST/
