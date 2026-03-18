@@ -19,38 +19,55 @@ A curated catalog of [Agent Skills](https://github.com/anthropics/skills) (SKILL
 
 ## Quick Start
 
-### Browse the Catalog
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/John-Wang-0809/claw-research-skills.git
+cd claw-research-skills
+```
+
+No external dependencies — only Python 3.7+ standard library is required.
+
+### 2. Browse the Catalog
 
 - **[SKILL_CATALOG.md](SKILL_CATALOG.md)** — Full English catalog (Skill / Description / Tier / Domain / Value / URL)
 - **[SKILL_CATALOG_CN.md](SKILL_CATALOG_CN.md)** — Chinese translation
 
-### Deploy to OpenClaw / IronClaw
+### 3. Use a Single Skill in Claude Code
+
+Copy any `SKILL.md` from `Final_Research_Skills_Link_Downloads_By_Theme_LATEST/` into your Claude Code skills directory:
 
 ```bash
+# List available skills under a theme
+ls Final_Research_Skills_Link_Downloads_By_Theme_LATEST/03_experiment_benchmark_reproducibility_validation/
+
+# Copy a skill to Claude Code
+cp Final_Research_Skills_Link_Downloads_By_Theme_LATEST/03_experiment_benchmark_reproducibility_validation/anthropics__life-sciences/scvi-tools/SKILL.md \
+   ~/.claude/skills/scvi-tools/SKILL.md
+```
+
+Claude Code will automatically discover skills under `~/.claude/skills/`.
+
+### 4. Batch Deploy to OpenClaw / IronClaw
+
+```bash
+# Preview what will be deployed (no files written)
+python deploy_skills.py --dry-run
+
 # Generate deployment directories
 python deploy_skills.py                    # Both platforms
 python deploy_skills.py --target openclaw  # OpenClaw only
 python deploy_skills.py --target ironclaw  # IronClaw only
-python deploy_skills.py --dry-run          # Preview without writing
 python deploy_skills.py --tier A,B         # Deploy only top-tier skills
 
 # Install to OpenClaw
 cp -r openclaw_deploy/* ~/.openclaw/skills/
 
-# IronClaw output includes activation blocks for smart skill selection
+# Install to IronClaw
+cp -r ironclaw_deploy/* ~/.ironclaw/skills/
 ```
 
-All 1,391 deployed names comply with the [Agent Skills specification](https://agentskills.io/specification) (`[a-z0-9-]`, max 64 chars).
-
-### Use a Single Skill
-
-Copy any `SKILL.md` from `Final_Research_Skills_Link_Downloads_By_Theme_LATEST/` to your Claude Code skills directory:
-
-```bash
-# Example: use the genome assembly skill
-cp Final_Research_Skills_Link_Downloads_By_Theme_LATEST/03_.../sanger-pathogens__skills/bio-genome-assembly-short-read-assembly/SKILL.md \
-   ~/.claude/skills/bio-genome-assembly/SKILL.md
-```
+All 1,391 deployed names comply with the [Agent Skills specification](https://agentskills.io/specification) (`[a-z0-9-]`, max 64 chars). A `deploy_report.json` is generated with deployment details and any errors.
 
 ## Research Themes
 
