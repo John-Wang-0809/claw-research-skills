@@ -7,6 +7,7 @@
 ## 统计概览
 
 | # | 主题 | 技能数 | 仓库数 |
+|---|------|--------|--------|
 | 01 | 信息检索与证据收集 | 158 | 28 |
 | 02 | 文献综述、写作与引用 | 673 | 55 |
 | 03 | 实验、基准测试与可复现性验证 | 589 | 34 |
@@ -20,71 +21,74 @@
 ## 01 信息检索与证据收集 (158 个技能)
 
 
-| project-guidelines-example | 基于真实生产应用的示例项目特定技能模板。 | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/project-guidelines-example/SKILL.md) |
-| strategic-compact | 建议在逻辑间隔进行手动上下文压缩，以在任务阶段之间保留上下文... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/strategic-compact/SKILL.md) |
 ### affaan-m/everything-claude-code
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| project-guidelines-example | 基于真实生产应用的示例项目特定技能模板。 | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/project-guidelines-example/SKILL.md) |
+| strategic-compact | 建议在逻辑间隔进行手动上下文压缩，以在任务阶段之间保留上下文... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/strategic-compact/SKILL.md) |
 
 
-| semantic-search | 通过自然语言查询进行语义搜索以按含义查找代码。 | [链接](https://github.com/ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill/blob/main/.claude/skills/semantic-search/SKILL.md) |
 ### ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| semantic-search | 通过自然语言查询进行语义搜索以按含义查找代码。 | [链接](https://github.com/ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill/blob/main/.claude/skills/semantic-search/SKILL.md) |
 
 
-| pdf | 综合PDF操作工具包，用于提取文本和表格，创建新的PDF，... | [链接](https://github.com/anthropics/claude-agent-sdk-demos/blob/main/research-agent/.claude/skills/pdf/SKILL.md) |
 ### anthropics/claude-agent-sdk-demos
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| pdf | 综合PDF操作工具包，用于提取文本和表格，创建新的PDF，... | [链接](https://github.com/anthropics/claude-agent-sdk-demos/blob/main/research-agent/.claude/skills/pdf/SKILL.md) |
 
 
 
 
-| help | 提供关于使用skill-to-mcp服务器和如何安装其他技能的信息。 | [链接](https://github.com/biocontext-ai/skill-to-mcp/blob/main/src/skill_to_mcp/default_skills/help/SKILL.md) |
 ### biocontext-ai/skill-to-mcp
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| help | 提供关于使用skill-to-mcp服务器和如何安装其他技能的信息。 | [链接](https://github.com/biocontext-ai/skill-to-mcp/blob/main/src/skill_to_mcp/default_skills/help/SKILL.md) |
 
 
-| googlebigquery-automation | "通过Rube MCP (Composio)自动化Google BigQuery任务：运行SQL查询，探索数据集和... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/googlebigquery-automation/SKILL.md) |
-| OpenAI Automation | "自动化OpenAI API操作 -- 生成具有多模态和结构化输出的响应... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/openai-automation/SKILL.md) |
-| skill-share | 一种创建新的Claude技能并使用Rube自动在Slack上共享它们的技能。 | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/skill-share/SKILL.md) |
 ### ComposioHQ/awesome-claude-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| googlebigquery-automation | "通过Rube MCP (Composio)自动化Google BigQuery任务：运行SQL查询，探索数据集和... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/googlebigquery-automation/SKILL.md) |
+| OpenAI Automation | "自动化OpenAI API操作 -- 生成具有多模态和结构化输出的响应... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/openai-automation/SKILL.md) |
+| skill-share | 一种创建新的Claude技能并使用Rube自动在Slack上共享它们的技能。 | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/skill-share/SKILL.md) |
 
 
+### danielmiessler/Personal_AI_Infrastructure
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | AnnualReports | 从570多个来源聚合和分析网络安全年度安全报告。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v3.0/.claude/skills/AnnualReports/SKILL.md) |
 | BeCreative | BeCreative是一种扩展思维模式技能，用于创造性工作、深度思考和扩展... | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.4/.claude/skills/BeCreative/SKILL.md) |
 | CORE | 此技能作为个人AI基础设施（PAI）核心的权威参考。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.4/.claude/skills/CORE/SKILL.md) |
 | CreateCLI | 生成TypeScript CLI。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v3.0/.claude/skills/CreateCLI/SKILL.md) |
 | CreateSkill | 创建和验证技能。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v3.0/.claude/skills/CreateSkill/SKILL.md) |
 | RedTeam | 使用32个代理进行对抗性分析。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v3.0/.claude/skills/RedTeam/SKILL.md) |
-### danielmiessler/Personal_AI_Infrastructure
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| daem0nmcp-protocol | 当Daem0nMCP工具可用时使用 - 强制执行神圣契约（在会话开始时进行交流，... | [链接](https://github.com/DasBluEyedDevil/Daem0n-MCP/blob/main/.claude/skills/daem0nmcp-protocol/SKILL.md) |
 ### DasBluEyedDevil/Daem0n-MCP
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| daem0nmcp-protocol | 当Daem0nMCP工具可用时使用 - 强制执行神圣契约（在会话开始时进行交流，... | [链接](https://github.com/DasBluEyedDevil/Daem0n-MCP/blob/main/.claude/skills/daem0nmcp-protocol/SKILL.md) |
 
 
-| brainstorming | 此技能应在实现功能、构建组件或进行更改之前使用。 | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/brainstorming/SKILL.md) |
-| skill-creator | 创建有效技能的指南。 | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/skill-creator/SKILL.md) |
 ### EveryInc/every-marketplace
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| brainstorming | 此技能应在实现功能、构建组件或进行更改之前使用。 | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/brainstorming/SKILL.md) |
+| skill-creator | 创建有效技能的指南。 | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/skill-creator/SKILL.md) |
 
 
-| Shodan Reconnaissance and Pentesting | 当用户要求“在互联网上搜索暴露设备”时应使用此技能，... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/shodan-reconnaissance/SKILL.md) |
 ### ForaeFactory/antigravity-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| Shodan Reconnaissance and Pentesting | 当用户要求“在互联网上搜索暴露设备”时应使用此技能，... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/shodan-reconnaissance/SKILL.md) |
 
 
+### GPTomics/bioSkills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | bio-admet-prediction | 使用ADMETlab 3.0 API或DeepChem模型预测ADMET属性。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/chemoinformatics/admet-prediction/SKILL.md) |
 | bio-atac-seq-footprinting | 通过ATAC-seq数据中的足迹分析检测转录因子结合位点。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/atac-seq/footprinting/SKILL.md) |
 | bio-batch-processing | 使用Biopython批量处理多个序列文件。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/sequence-io/batch-processing/SKILL.md) |
@@ -138,24 +142,24 @@
 | bio-transcription-translation | 使用Biopython将DNA转录为RNA并翻译为蛋白质。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/sequence-manipulation/transcription-translation/SKILL.md) |
 | bio-virtual-screening | 使用AutoDock Vina 1.2进行基于结构的虚拟筛选以进行分子对接。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/chemoinformatics/virtual-screening/SKILL.md) |
 | bio-workflows-neoantigen-pipeline | 从体细胞变异到排名疫苗候选者的端到端新抗原发现。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/neoantigen-pipeline/SKILL.md) |
-### GPTomics/bioSkills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| planning-with-files | 实现Manus风格的基于文件的复杂任务规划。 | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/planning-with-files/SKILL.md) |
-| Shodan Reconnaissance and Pentesting | 当用户要求“在互联网上搜索暴露的设备”时，应使用此技能... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/shodan-reconnaissance/SKILL.md) |
 ### hangoclong/skills-antigravity-awesome
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| planning-with-files | 实现Manus风格的基于文件的复杂任务规划。 | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/planning-with-files/SKILL.md) |
+| Shodan Reconnaissance and Pentesting | 当用户要求“在互联网上搜索暴露的设备”时，应使用此技能... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/shodan-reconnaissance/SKILL.md) |
 
 
-| Shodan Reconnaissance and Pentesting | 当用户要求“在互联网上搜索暴露的设备”时，应使用此技能... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/shodan-reconnaissance/SKILL.md) |
 ### huysynf/antigravity-awesome-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| Shodan Reconnaissance and Pentesting | 当用户要求“在互联网上搜索暴露的设备”时，应使用此技能... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/shodan-reconnaissance/SKILL.md) |
 
 
+### K-Dense-AI/claude-scientific-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | arboreto | 使用可扩展算法从基因表达数据推断基因调控网络（GRNs）... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/arboreto/SKILL.md) |
 | astropy | 综合的天文学和天体物理学Python库。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/astropy/SKILL.md) |
 | datamol | 针对RDKit的Python封装，具有简化的接口和合理的默认值。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/datamol/SKILL.md) |
@@ -170,18 +174,18 @@
 | pysam | 基因组文件工具包。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pysam/SKILL.md) |
 | qutip | 用于开放量子系统的量子物理模拟库。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/qutip/SKILL.md) |
 | zarr-python | 用于云存储的分块N-D数组。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/zarr-python/SKILL.md) |
-### K-Dense-AI/claude-scientific-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| mcp-management | mcp-management是一个用于发现、分析和执行工具、提示和资源的技能... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/mcp-management/SKILL.md) |
-| skill-creator | skill-creator提供创建和更新模块化、自包含Claude技能的指导... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/skill-creator/SKILL.md) |
 ### mrgoonie/claudekit-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| mcp-management | mcp-management是一个用于发现、分析和执行工具、提示和资源的技能... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/mcp-management/SKILL.md) |
+| skill-creator | skill-creator提供创建和更新模块化、自包含Claude技能的指导... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/skill-creator/SKILL.md) |
 
 
+### Orchestra-Research/AI-Research-SKILLs
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | deepspeed | 编译官方DeepSpeed教程作为参考模式，以详细的DeepNVMe I/O为主... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/08-distributed-training/deepspeed/SKILL.md) |
 | huggingface-accelerate | 提供最简单的分布式训练API，约需4行代码即可为... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/08-distributed-training/accelerate/SKILL.md) |
 | implementing-llms-litgpt | 使用Lightning AI的LitGPT实现和训练大型语言模型，提供20多个预训练... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/01-model-architecture/litgpt/SKILL.md) |
@@ -194,40 +198,40 @@
 | skypilot-multi-cloud-orchestration | 多云编排用于机器学习工作负载，具有自动成本优化功能。 | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/09-infrastructure/skypilot/SKILL.md) |
 | stable-diffusion-image-generation | 通过HuggingFace Diffusers实现最先进的文本到图像生成，使用Stable Diffusion模型。 | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/18-multimodal/stable-diffusion/SKILL.md) |
 | unsloth | 使用Unsloth提供快速微调的专家指导 - 训练速度提高2-5倍，内存减少50-80%... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/03-fine-tuning/unsloth/SKILL.md) |
-### Orchestra-Research/AI-Research-SKILLs
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| pi-planning-with-files | 实现Manus风格的基于文件的规划，以组织和跟踪复杂任务的进展... | [链接](https://github.com/OthmanAdi/planning-with-files/blob/master/.pi/skills/planning-with-files/SKILL.md) |
-| planning-with-files | 实现Manus风格的基于文件的规划，以组织和跟踪复杂任务的进展... | [链接](https://github.com/OthmanAdi/planning-with-files/blob/master/.adal/skills/planning-with-files/SKILL.md) |
 ### OthmanAdi/planning-with-files
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| pi-planning-with-files | 实现Manus风格的基于文件的规划，以组织和跟踪复杂任务的进展... | [链接](https://github.com/OthmanAdi/planning-with-files/blob/master/.pi/skills/planning-with-files/SKILL.md) |
+| planning-with-files | 实现Manus风格的基于文件的规划，以组织和跟踪复杂任务的进展... | [链接](https://github.com/OthmanAdi/planning-with-files/blob/master/.adal/skills/planning-with-files/SKILL.md) |
 
 
-| video-downloader | 从YouTube和其他平台下载视频以供离线观看、编辑或归档。 | [链接](https://github.com/Prat011/awesome-llm-skills/blob/master/video-downloader/SKILL.md) |
 ### Prat011/awesome-llm-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| video-downloader | 从YouTube和其他平台下载视频以供离线观看、编辑或归档。 | [链接](https://github.com/Prat011/awesome-llm-skills/blob/master/video-downloader/SKILL.md) |
 
 
 
 
-| agent-coordinator-swarm-init | 协调者-群体初始化的代理技能 - 使用$agent-coordinator-swarm-init调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-coordinator-swarm-init/SKILL.md) |
-| agent-planner | 规划者的代理技能 - 使用$agent-planner调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-planner/SKILL.md) |
-| agent-pseudocode | 伪代码的代理技能 - 使用$agent-pseudocode调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-pseudocode/SKILL.md) |
 ### ruvnet/claude-flow
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| agent-coordinator-swarm-init | 协调者-群体初始化的代理技能 - 使用$agent-coordinator-swarm-init调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-coordinator-swarm-init/SKILL.md) |
+| agent-planner | 规划者的代理技能 - 使用$agent-planner调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-planner/SKILL.md) |
+| agent-pseudocode | 伪代码的代理技能 - 使用$agent-pseudocode调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-pseudocode/SKILL.md) |
 
 
-| technical-writer | 为开发者和用户创建清晰的文档、API参考、指南和技术内容。 | [链接](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/awesome_agent_skills/technical-writer/SKILL.md) |
 ### Shubhamsaboo/awesome-llm-apps
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| technical-writer | 为开发者和用户创建清晰的文档、API参考、指南和技术内容。 | [链接](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/awesome_agent_skills/technical-writer/SKILL.md) |
 
 
+### sickn33/antigravity-awesome-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | anti-reversing-techniques | 理解在软件过程中遇到的反向工程、混淆和保护技术... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/anti-reversing-techniques/SKILL.md) |
 | autonomous-agent-patterns | “构建自主编码代理的设计模式。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/autonomous-agent-patterns/SKILL.md) |
 | azure-ai-contentunderstanding-py | Azure AI内容理解SDK for Python。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/azure-ai-contentunderstanding-py/SKILL.md) |
@@ -246,64 +250,64 @@
 | Shodan Reconnaissance and Pentesting | 当用户要求“在互联网上搜索暴露的设备”时，应使用此技能... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/shodan-reconnaissance/SKILL.md) |
 | wiki-researcher | 在代码库中对特定主题进行多轮迭代深入研究，零... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/wiki-researcher/SKILL.md) |
 | youtube-summarizer | 从YouTube视频中提取转录并使用生成全面、详细的摘要... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/youtube-summarizer/SKILL.md) |
-### sickn33/antigravity-awesome-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| knowledge-capture | 将对话和讨论转换为结构化的Notion文档 | [链接](https://github.com/tommy-ca/notion-skills/blob/main/plugins/notion-skills/skills/knowledge-capture/SKILL.md) |
-| spec-to-implementation | 解析规范并在Notion中创建任务跟踪的实施计划 | [链接](https://github.com/tommy-ca/notion-skills/blob/main/plugins/notion-skills/skills/spec-to-implementation/SKILL.md) |
 ### tommy-ca/notion-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| knowledge-capture | 将对话和讨论转换为结构化的Notion文档 | [链接](https://github.com/tommy-ca/notion-skills/blob/main/plugins/notion-skills/skills/knowledge-capture/SKILL.md) |
+| spec-to-implementation | 解析规范并在Notion中创建任务跟踪的实施计划 | [链接](https://github.com/tommy-ca/notion-skills/blob/main/plugins/notion-skills/skills/spec-to-implementation/SKILL.md) |
 
 
-| codeql | 使用CodeQL的跨过程数据流和污点分析扫描代码库中的安全漏洞。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/codeql/SKILL.md) |
-| libafl | > LibAFL是一个模块化模糊测试库，用于构建自定义模糊器。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libafl/SKILL.md) |
-| testing-handbook-generator | > 元技能分析Trail of Bits Testing Handbook（appsec.guide）并生成Claude... | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md) |
 ### trailofbits/skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| codeql | 使用CodeQL的跨过程数据流和污点分析扫描代码库中的安全漏洞。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/skills/codeql/SKILL.md) |
+| libafl | > LibAFL是一个模块化模糊测试库，用于构建自定义模糊器。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/libafl/SKILL.md) |
+| testing-handbook-generator | > 元技能分析Trail of Bits Testing Handbook（appsec.guide）并生成Claude... | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md) |
 
 
-| research-add-fields | 向现有研究大纲添加字段定义。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research-add-fields/SKILL.md) |
-| research-add-items | 向现有研究大纲添加项目（研究对象）。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research-add-items/SKILL.md) |
 ### Weizhena/Deep-Research-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| research-add-fields | 向现有研究大纲添加字段定义。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research-add-fields/SKILL.md) |
+| research-add-items | 向现有研究大纲添加项目（研究对象）。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research-add-items/SKILL.md) |
 
 
-| anti-reversing-techniques | 理解在软件过程中遇到的反向工程、混淆和保护技术... | [链接](https://github.com/wshobson/agents/blob/main/plugins/reverse-engineering/skills/anti-reversing-techniques/SKILL.md) |
-| memory-forensics | 掌握内存取证技术，包括内存获取、进程分析和工件... | [链接](https://github.com/wshobson/agents/blob/main/plugins/reverse-engineering/skills/memory-forensics/SKILL.md) |
-| protocol-reverse-engineering | 掌握网络协议逆向工程，包括数据包分析、协议剖析和... | [链接](https://github.com/wshobson/agents/blob/main/plugins/reverse-engineering/skills/protocol-reverse-engineering/SKILL.md) |
 ### wshobson/agents
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| anti-reversing-techniques | 理解在软件过程中遇到的反向工程、混淆和保护技术... | [链接](https://github.com/wshobson/agents/blob/main/plugins/reverse-engineering/skills/anti-reversing-techniques/SKILL.md) |
+| memory-forensics | 掌握内存取证技术，包括内存获取、进程分析和工件... | [链接](https://github.com/wshobson/agents/blob/main/plugins/reverse-engineering/skills/memory-forensics/SKILL.md) |
+| protocol-reverse-engineering | 掌握网络协议逆向工程，包括数据包分析、协议剖析和... | [链接](https://github.com/wshobson/agents/blob/main/plugins/reverse-engineering/skills/protocol-reverse-engineering/SKILL.md) |
 
 
-| perplexity-web-research | 利用Perplexity CLI进行网络研究、深度推理和独立验证。 | [链接](https://github.com/xpepper/perplexity-agent-skill/blob/main/perplexity-web-research/SKILL.md) |
 ### xpepper/perplexity-agent-skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| perplexity-web-research | 利用Perplexity CLI进行网络研究、深度推理和独立验证。 | [链接](https://github.com/xpepper/perplexity-agent-skill/blob/main/perplexity-web-research/SKILL.md) |
 
 
-| self-learning | 自主研究任何技术、库、框架或API。 | [链接](https://github.com/ychampion/claude-self-learning/blob/main/skills/self-learning/SKILL.md) |
-| update-skill | 用新信息更新现有技能 | [链接](https://github.com/ychampion/claude-self-learning/blob/main/commands/update-skill.md) |
 ### ychampion/claude-self-learning
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| self-learning | 自主研究任何技术、库、框架或API。 | [链接](https://github.com/ychampion/claude-self-learning/blob/main/skills/self-learning/SKILL.md) |
+| update-skill | 用新信息更新现有技能 | [链接](https://github.com/ychampion/claude-self-learning/blob/main/commands/update-skill.md) |
 
 ---
 
 ## 02 文献综述、写作与引用 (673 个技能)
 
 
-| deep-research | deep-research是一个企业级研究技能，旨在进行多源综合、引用... | [链接](https://github.com/199-biotechnologies/claude-deep-research-skill/blob/main/SKILL.md) |
 ### 199-biotechnologies/claude-deep-research-skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| deep-research | deep-research是一个企业级研究技能，旨在进行多源综合、引用... | [链接](https://github.com/199-biotechnologies/claude-deep-research-skill/blob/main/SKILL.md) |
 
 
+### acertainKnight/project-thoth
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | custom-source-setup | 使用LLM驱动的自动检测从任何网站设置自定义文章来源。 | [链接](https://github.com/acertainKnight/project-thoth/blob/main/src/thoth/.skills/custom-source-setup/SKILL.md) |
 | deep-research | 深入分析研究论文，综合文献，并生成全面的评审。 | [链接](https://github.com/acertainKnight/project-thoth/blob/main/src/thoth/.skills/deep-research/SKILL.md) |
 | knowledge-base-qa | 使用现有的研究集合和外部知识回答问题。 | [链接](https://github.com/acertainKnight/project-thoth/blob/main/src/thoth/.skills/knowledge-base-qa/SKILL.md) |
@@ -322,11 +326,11 @@
 | research-workflow-coordination | 协调多阶段研究工作流程，进行并行专业执行。 | [链接](https://github.com/acertainKnight/project-thoth/blob/main/src/thoth/.skills/bundles/orchestrator/research-workflow-coordination/SKILL.md) |
 | settings-management | 查看和修改Thoth配置设置。 | [链接](https://github.com/acertainKnight/project-thoth/blob/main/src/thoth/.skills/settings-management/SKILL.md) |
 | skill-creation-workshop | 通过迭代设计协作创建和完善新技能 - 验证需求，设计... | [链接](https://github.com/acertainKnight/project-thoth/blob/main/src/thoth/.skills/skill-creation-workshop/SKILL.md) |
-### acertainKnight/project-thoth
+
+
+### affaan-m/everything-claude-code
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | api-design | REST API设计模式，包括资源命名、状态码、分页、过滤、错误... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/skills/api-design/SKILL.md) |
 | clickhouse-io | ClickHouse数据库模式、查询优化、分析和数据工程最佳实践... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/clickhouse-io/SKILL.md) |
 | configure-ecc | Everything Claude Code的交互式安装程序 - 指导用户选择和安装... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/configure-ecc/SKILL.md) |
@@ -337,17 +341,17 @@
 | python-patterns | Pythonic习语、PEP 8标准、类型提示和构建健壮、高效系统的最佳实践。 | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/python-patterns/SKILL.md) |
 | python-testing | 使用pytest的Python测试策略、TDD方法论、夹具、模拟、参数化和... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/python-testing/SKILL.md) |
 | springboot-verification | Spring Boot项目的验证循环：构建、静态分析、覆盖率测试、安全... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/springboot-verification/SKILL.md) |
-### affaan-m/everything-claude-code
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| spec-workflow-orchestrator | 从构思到开发准备规范的规划阶段协调，使用3... | [链接](https://github.com/ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill/blob/main/.claude/skills/spec-workflow-orchestrator/SKILL.md) |
 ### ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| spec-workflow-orchestrator | 从构思到开发准备规范的规划阶段协调，使用3... | [链接](https://github.com/ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill/blob/main/.claude/skills/spec-workflow-orchestrator/SKILL.md) |
 
 
+### alirezarezvani/claude-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | capa-officer | 支持医疗设备QMS中的CAPA系统管理，包括根本原因分析... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/ra-qm-team/capa-officer/SKILL.md) |
 | cto-advisor | 为工程团队提供技术领导指导，包括架构决策和... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/c-level-advisor/cto-advisor/SKILL.md) |
 | fda-consultant-specialist | 为医疗设备公司提供FDA监管咨询，包括选择的指导... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/ra-qm-team/fda-consultant-specialist/SKILL.md) |
@@ -364,71 +368,71 @@
 | senior-prompt-engineer | 当用户要求“优化提示”、“设计提示模板”时应使用此技能... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/engineering-team/senior-prompt-engineer/SKILL.md) |
 | tdd-guide | 测试驱动开发工作流程，包括测试生成、覆盖率分析和多框架... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/engineering-team/tdd-guide/SKILL.md) |
 | ux-researcher-designer | 高级UX设计师/研究员的UX研究和设计工具包，包括数据驱动的人物角色... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/product-team/ux-researcher-designer/SKILL.md) |
-### alirezarezvani/claude-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| research-before-coding | 在编写任何实现代码、修复错误或修改现有代码时使用。 | [链接](https://github.com/anombyte93/claude-research-skill/blob/main/SKILL.md) |
 ### anombyte93/claude-research-skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| research-before-coding | 在编写任何实现代码、修复错误或修改现有代码时使用。 | [链接](https://github.com/anombyte93/claude-research-skill/blob/main/SKILL.md) |
 
 
-| docx | 此技能支持创建、编辑和分析专业的.docx文档，包括... | [链接](https://github.com/anthropics/claude-agent-sdk-demos/blob/main/resume-generator/.claude/skills/docx/SKILL.md) |
-| executive-briefing | “将研究结果转化为高管准备的简报。 | [链接](https://github.com/anthropics/claude-agent-sdk-demos/blob/main/research-agent/.claude/skills/executive-briefing/SKILL.md) |
-| xlsx | xlsx提供对.xlsx、.xlsm、.csv等文件的电子表格创建、编辑和分析。 | [链接](https://github.com/anthropics/claude-agent-sdk-demos/blob/main/excel-demo/agent/.claude/skills/xlsx/SKILL.md) |
 ### anthropics/claude-agent-sdk-demos
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| docx | 此技能支持创建、编辑和分析专业的.docx文档，包括... | [链接](https://github.com/anthropics/claude-agent-sdk-demos/blob/main/resume-generator/.claude/skills/docx/SKILL.md) |
+| executive-briefing | “将研究结果转化为高管准备的简报。 | [链接](https://github.com/anthropics/claude-agent-sdk-demos/blob/main/research-agent/.claude/skills/executive-briefing/SKILL.md) |
+| xlsx | xlsx提供对.xlsx、.xlsm、.csv等文件的电子表格创建、编辑和分析。 | [链接](https://github.com/anthropics/claude-agent-sdk-demos/blob/main/excel-demo/agent/.claude/skills/xlsx/SKILL.md) |
 
 
+### anthropics/claude-code
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | Agent Development | 此技能指导开发Claude Code插件的代理，包括如何构建... | [链接](https://github.com/anthropics/claude-code/blob/main/plugins/plugin-dev/skills/agent-development/SKILL.md) |
 | Command Development | 当用户要求“创建斜杠命令”、“添加命令”、“编写命令”时应使用此技能... | [链接](https://github.com/anthropics/claude-code/blob/main/plugins/plugin-dev/skills/command-development/SKILL.md) |
 | MCP Integration | 当用户要求“添加MCP服务器”、“集成MCP”、“配置MCP”时应使用此技能... | [链接](https://github.com/anthropics/claude-code/blob/main/plugins/plugin-dev/skills/mcp-integration/SKILL.md) |
 | Writing Hookify Rules | 当用户要求“创建hookify规则”、“编写hook规则”时应使用此技能... | [链接](https://github.com/anthropics/claude-code/blob/main/plugins/hookify/skills/writing-rules/SKILL.md) |
-### anthropics/claude-code
+
+
+### anthropics/life-sciences
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | clinical-trial-protocol-skill | clinical-trial-protocol-skill生成医疗设备和药物的临床试验方案... | [链接](https://github.com/anthropics/life-sciences/blob/main/clinical-trial-protocol-skill/SKILL.md) |
 | instrument-data-to-allotrope | 将实验室仪器输出文件（PDF、CSV、Excel、TXT）转换为标准化的Allotrope... | [链接](https://github.com/anthropics/life-sciences/blob/main/instrument-data-to-allotrope/SKILL.md) |
 | nextflow-development | 在测序数据上运行nf-core生物信息学管道（rnaseq、sarek、atacseq）。 | [链接](https://github.com/anthropics/life-sciences/blob/main/nextflow-development/SKILL.md) |
 | scientific-problem-selection | 当科学家需要帮助选择研究问题、项目构思、故障排除时使用... | [链接](https://github.com/anthropics/life-sciences/blob/main/scientific-problem-selection/SKILL.md) |
 | single-cell-rna-qc | 使用scverse最佳实践对单细胞RNA-seq数据（.h5ad或.h5文件）进行质量控制。 | [链接](https://github.com/anthropics/life-sciences/blob/main/single-cell-rna-qc/SKILL.md) |
-### anthropics/life-sciences
+
+
+### anthropics/skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | docx | “每当用户想要创建、读取、编辑或操作Word文档（.docx）时使用此技能... | [链接](https://github.com/anthropics/skills/blob/main/skills/docx/SKILL.md) |
 | mcp-builder | 创建高质量MCP（模型上下文协议）服务器的指南，使LLMs能够交互... | [链接](https://github.com/anthropics/skills/blob/main/skills/mcp-builder/SKILL.md) |
 | pptx | “每当涉及到.pptx文件时 — 作为输入、输出或两者都涉及。 | [链接](https://github.com/anthropics/skills/blob/main/skills/pptx/SKILL.md) |
 | skill-creator | 创建新技能，修改和改进现有技能，并衡量技能表现。 | [链接](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md) |
 | xlsx | “每当电子表格文件是主要输入或输出时使用此技能。 | [链接](https://github.com/anthropics/skills/blob/main/skills/xlsx/SKILL.md) |
-### anthropics/skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| single-cell-rna-qc | 使用scverse最佳实践对单细胞RNA-seq数据（.h5ad或.h5文件）进行质量控制。 | [链接](https://github.com/biocontext-ai/skill-to-mcp/blob/main/skills/single-cell-rna-qc/SKILL.md) |
 ### biocontext-ai/skill-to-mcp
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| single-cell-rna-qc | 使用scverse最佳实践对单细胞RNA-seq数据（.h5ad或.h5文件）进行质量控制。 | [链接](https://github.com/biocontext-ai/skill-to-mcp/blob/main/skills/single-cell-rna-qc/SKILL.md) |
 
 
+### ComposioHQ/awesome-claude-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | content-research-writer | 通过进行研究、添加引用、改善钩子等来协助撰写高质量内容。 | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/content-research-writer/SKILL.md) |
 | file-organizer | 通过理解上下文，智能地组织您计算机上的文件和文件夹... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/file-organizer/SKILL.md) |
 | mcp-builder | 创建高质量MCP（模型上下文协议）服务器的指南，使LLMs能够交互... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/mcp-builder/SKILL.md) |
 | meeting-insights-analyzer | 分析会议记录和录音，以揭示行为模式、沟通洞察... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/meeting-insights-analyzer/SKILL.md) |
 | semanticscholar-automation | 通过Rube MCP（Composio）自动化Semanticscholar任务。 | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/semanticscholar-automation/SKILL.md) |
 | SurveyMonkey Automation | 自动化SurveyMonkey调查创建、响应收集、收集者管理和调查... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/survey-monkey-automation/SKILL.md) |
-### ComposioHQ/awesome-claude-skills
+
+
+### danielmiessler/Personal_AI_Infrastructure
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | Apify | 通过 Apify actors 进行社交媒体抓取、商业数据和电子商务。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.4/.claude/skills/Apify/SKILL.md) |
 | Council | Council 是一个多代理辩论系统，运行结构化讨论，专门代理... | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Packs/pai-council-skill/src/skills/Council/SKILL.md) |
 | Documents | 处理 DOCX、PDF、PPTX 和 XLSX 文件的文档处理路由器。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.4/.claude/skills/Documents/SKILL.md) |
@@ -440,39 +444,39 @@
 | SECUpdates | 来自 tldrsec、no.security 和其他来源的安全新闻聚合。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.4/.claude/skills/SECUpdates/SKILL.md) |
 | THEALGORITHM | 使用科学方法实现理想状态的通用执行引擎。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Packs/pai-algorithm-skill/src/skills/THEALGORITHM/SKILL.md) |
 | Xlsx | Excel 文件处理。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.4/.claude/skills/Documents/Xlsx/SKILL.md) |
-### danielmiessler/Personal_AI_Infrastructure
+
+
+
+
+### EveryInc/every-marketplace
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
-
-
 | create-agent-skills | 创建 Claude Code 技能和斜杠命令的专家指导。 | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/create-agent-skills/SKILL.md) |
 | document-review | 在进行下一步之前，应使用此技能来完善头脑风暴或计划文档... | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/document-review/SKILL.md) |
 | every-style-editor | 在审查或编辑文案时，应使用此技能，以确保遵循 Every 的风格指南。 | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/every-style-editor/SKILL.md) |
 | heal-skill | 当技能有错误说明或过时的 API 参考时，修复不正确的 SKILL.md 文件。 | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/commands/heal-skill.md) |
 | orchestrating-swarms | 使用 Claude Code 的 TeammateTool 和 Task 系统协调工作，编排多代理群体。 | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/orchestrating-swarms/SKILL.md) |
-### EveryInc/every-marketplace
+
+
+### ForaeFactory/antigravity-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | crewai | 使用 CrewAI 设计和编排协作 AI 代理团队，专注于基于角色的代理... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/crewai/SKILL.md) |
 | nestjs-expert | 此技能为 Nest.js 应用提供主动专业知识，涵盖模块架构，... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/nestjs-expert/SKILL.md) |
 | Network 101 | 当用户要求“设置网络服务器”、“配置 HTTP 或 HTTPS”时，应使用此技能。 | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/network-101/SKILL.md) |
 | senior-architect | 设计可扩展、可维护系统的全面软件架构技能，使用... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/senior-architect/SKILL.md) |
 | Wireshark Network Traffic Analysis | 此技能使用 Wireshark 进行全面网络流量分析，适用于实时数据包... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/wireshark-analysis/SKILL.md) |
-### ForaeFactory/antigravity-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| ai-paper-writing | 协助起草、润色、语法检查和 BibTeX 清理，以满足 AI 顶级会议的要求... | [链接](https://github.com/GitZH-Chen/AI-Research-Skills/blob/main/ai-paper-writing/SKILL.md) |
 ### GitZH-Chen/AI-Research-Skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| ai-paper-writing | 协助起草、润色、语法检查和 BibTeX 清理，以满足 AI 顶级会议的要求... | [链接](https://github.com/GitZH-Chen/AI-Research-Skills/blob/main/ai-paper-writing/SKILL.md) |
 
 
+### GPTomics/bioSkills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | bio-basecalling | 使用 Dorado basecaller 将原始 Nanopore 信号数据（FAST5/POD5）转换为核苷酸序列。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/long-read-sequencing/basecalling/SKILL.md) |
 | bio-batch-downloads | 使用历史服务器、批处理和速率限制高效下载来自 NCBI 的大型数据集。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/database-access/batch-downloads/SKILL.md) |
 | bio-clinical-databases-clinvar-lookup | 查询 ClinVar 以获取变异致病性分类、审查状态和疾病关联... | [链接](https://github.com/GPTomics/bioSkills/blob/main/clinical-databases/clinvar-lookup/SKILL.md) |
@@ -499,40 +503,40 @@
 | bio-workflows-edna-pipeline | 此工作流程提供端到端的 eDNA 元条形码管道，处理原始扩增子读取... | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/edna-pipeline/SKILL.md) |
 | bio-workflows-metabolic-modeling-pipeline | 此工作流程提供端到端的基因组规模代谢建模管道，将基因组... | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/metabolic-modeling-pipeline/SKILL.md) |
 | bio-workflows-scrnaseq-pipeline | 从 10X Genomics 数据到注释细胞类型的端到端单细胞 RNA-seq 工作流程。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/scrnaseq-pipeline/SKILL.md) |
-### GPTomics/bioSkills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| crewai | 使用 CrewAI 设计和协调协作 AI 代理团队，专注于明确的角色，... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/crewai/SKILL.md) |
-| Network 101 | 当用户请求“设置 Web 服务器”、“配置 HTTP 或 HTTPS”时应使用此技能，... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/network-101/SKILL.md) |
-| Wireshark Network Traffic Analysis | 当用户请求“使用 Wireshark 分析网络流量”、“捕获...时应使用此技能 | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/wireshark-analysis/SKILL.md) |
 ### hangoclong/skills-antigravity-awesome
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| crewai | 使用 CrewAI 设计和协调协作 AI 代理团队，专注于明确的角色，... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/crewai/SKILL.md) |
+| Network 101 | 当用户请求“设置 Web 服务器”、“配置 HTTP 或 HTTPS”时应使用此技能，... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/network-101/SKILL.md) |
+| Wireshark Network Traffic Analysis | 当用户请求“使用 Wireshark 分析网络流量”、“捕获...时应使用此技能 | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/wireshark-analysis/SKILL.md) |
 
 
-| deepcode | "DeepCode 集成 - 从论文和文本需求自动生成代码" | [链接](https://github.com/HKUDS/DeepCode/blob/main/nanobot/nanobot/skills/deepcode/SKILL.md) |
-| skill-creator | 创建或更新 AgentSkills。 | [链接](https://github.com/HKUDS/DeepCode/blob/main/nanobot/nanobot/skills/skill-creator/SKILL.md) |
 ### HKUDS/DeepCode
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| deepcode | "DeepCode 集成 - 从论文和文本需求自动生成代码" | [链接](https://github.com/HKUDS/DeepCode/blob/main/nanobot/nanobot/skills/deepcode/SKILL.md) |
+| skill-creator | 创建或更新 AgentSkills。 | [链接](https://github.com/HKUDS/DeepCode/blob/main/nanobot/nanobot/skills/skill-creator/SKILL.md) |
 
 
-| crewai | 此技能促进使用...设计和协调协作 AI 代理团队 | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/crewai/SKILL.md) |
-| Network 101 | 当用户请求“设置 Web 服务器”、“配置 HTTP 或 HTTPS”时应使用此技能，... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/network-101/SKILL.md) |
-| Wireshark Network Traffic Analysis | 当用户请求“使用 Wireshark 分析网络流量”、“捕获...时应使用此技能 | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/wireshark-analysis/SKILL.md) |
 ### huysynf/antigravity-awesome-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| crewai | 此技能促进使用...设计和协调协作 AI 代理团队 | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/crewai/SKILL.md) |
+| Network 101 | 当用户请求“设置 Web 服务器”、“配置 HTTP 或 HTTPS”时应使用此技能，... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/network-101/SKILL.md) |
+| Wireshark Network Traffic Analysis | 当用户请求“使用 Wireshark 分析网络流量”、“捕获...时应使用此技能 | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/wireshark-analysis/SKILL.md) |
 
 
-| paper2code | 연구 논문(PDF/arXiv URL)을 분석하여 실행 가능한 코드로 변환합니다. | [链接](https://github.com/issol14/paper2code-skill/blob/main/skills/paper2code/SKILL.md) |
 ### issol14/paper2code-skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| paper2code | 연구 논문(PDF/arXiv URL)을 분석하여 실행 가능한 코드로 변환합니다. | [链接](https://github.com/issol14/paper2code-skill/blob/main/skills/paper2code/SKILL.md) |
 
 
+### Jeffallan/claude-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | architecture-designer | 在设计新系统架构、审查现有设计或进行架构决策时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/architecture-designer/SKILL.md) |
 | cpp-pro | 在构建需要现代 C++20/23 特性的 C++ 应用程序、模板元编程或...时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/cpp-pro/SKILL.md) |
 | database-optimizer | 在调查慢查询、分析执行计划或优化数据库性能时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/database-optimizer/SKILL.md) |
@@ -544,11 +548,11 @@
 | sql-pro | 在优化 SQL 查询、设计数据库架构或调整数据库性能时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/sql-pro/SKILL.md) |
 | sre-engineer | 在定义 SLI/SLO、管理错误预算或构建可扩展的可靠系统时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/sre-engineer/SKILL.md) |
 | test-master | 在编写测试、创建测试策略或构建自动化框架时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/test-master/SKILL.md) |
-### Jeffallan/claude-skills
+
+
+### K-Dense-AI/claude-scientific-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | biopython | 提供全面的分子生物学工具包，用于序列操作、文件解析... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biopython/SKILL.md) |
 | biorxiv-database | bioRxiv 预印本服务器的高效数据库搜索工具。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/biorxiv-database/SKILL.md) |
 | brenda-database | 通过 SOAP API 访问 BRENDA 酶数据库。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/brenda-database/SKILL.md) |
@@ -608,11 +612,11 @@
 | venue-templates | 提供特定场地的 LaTeX 模板、格式要求和提交... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/venue-templates/SKILL.md) |
 | xlsx | 电子表格工具包 (.xlsx/.csv)。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/document-skills/xlsx/SKILL.md) |
 | zinc-database | 访问 ZINC 数据库，这是一个可自由访问的超过 2.3 亿可购买的... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/zinc-database/SKILL.md) |
-### K-Dense-AI/claude-scientific-skills
+
+
+### K-Dense-AI/claude-scientific-writer
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | citation-management | 此技能通过搜索 Google 等数据库支持学术研究的系统化引用管理... | [链接](https://github.com/K-Dense-AI/claude-scientific-writer/blob/main/.claude/skills/citation-management/SKILL.md) |
 | generate-image | 使用 AI 模型（FLUX、Gemini）生成或编辑图像，用于通用视觉效果，例如... | [链接](https://github.com/K-Dense-AI/claude-scientific-writer/blob/main/.claude/skills/generate-image/SKILL.md) |
 | hypothesis-generation | "生成可测试的假设。 | [链接](https://github.com/K-Dense-AI/claude-scientific-writer/blob/main/.claude/skills/hypothesis-generation/SKILL.md) |
@@ -623,47 +627,47 @@
 | scientific-critical-thinking | "评估研究的严谨性。 | [链接](https://github.com/K-Dense-AI/claude-scientific-writer/blob/main/.claude/skills/scientific-critical-thinking/SKILL.md) |
 | scientific-slides | 使用 Nano Banana Pro AI 构建研究演讲的幻灯片和演示，生成... | [链接](https://github.com/K-Dense-AI/claude-scientific-writer/blob/main/.claude/skills/scientific-slides/SKILL.md) |
 | xlsx | "电子表格工具包（.xlsx/.csv）。 | [链接](https://github.com/K-Dense-AI/claude-scientific-writer/blob/main/.claude/skills/document-skills/xlsx/SKILL.md) |
-### K-Dense-AI/claude-scientific-writer
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| arxiv-search | 在arXiv预印本库中搜索物理、数学、计算机科学、定量... | [链接](https://github.com/langchain-ai/deepagents/blob/main/libs/cli/examples/skills/arxiv-search/SKILL.md) |
-| web-research | 将此技能用于与网络研究相关的请求；它提供了一种结构化的方法来... | [链接](https://github.com/langchain-ai/deepagents/blob/main/libs/cli/examples/skills/web-research/SKILL.md) |
 ### langchain-ai/deepagents
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| arxiv-search | 在arXiv预印本库中搜索物理、数学、计算机科学、定量... | [链接](https://github.com/langchain-ai/deepagents/blob/main/libs/cli/examples/skills/arxiv-search/SKILL.md) |
+| web-research | 将此技能用于与网络研究相关的请求；它提供了一种结构化的方法来... | [链接](https://github.com/langchain-ai/deepagents/blob/main/libs/cli/examples/skills/web-research/SKILL.md) |
 
 
-| medical-imaging-review | > 为医学影像AI研究撰写全面的文献综述。 | [链接](https://github.com/luwill/research-skills/blob/main/medical-imaging-review/SKILL.md) |
-| paper-slide-deck | 从学术论文和内容生成专业的幻灯片图像。 | [链接](https://github.com/luwill/research-skills/blob/main/paper-slide-deck/SKILL.md) |
-| research-proposal | 生成用于博士申请的学术研究提案，支持STEM、人文学科和社会... | [链接](https://github.com/luwill/research-skills/blob/main/research-proposal/SKILL.md) |
 ### luwill/research-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| medical-imaging-review | > 为医学影像AI研究撰写全面的文献综述。 | [链接](https://github.com/luwill/research-skills/blob/main/medical-imaging-review/SKILL.md) |
+| paper-slide-deck | 从学术论文和内容生成专业的幻灯片图像。 | [链接](https://github.com/luwill/research-skills/blob/main/paper-slide-deck/SKILL.md) |
+| research-proposal | 生成用于博士申请的学术研究提案，支持STEM、人文学科和社会... | [链接](https://github.com/luwill/research-skills/blob/main/research-proposal/SKILL.md) |
 
 
-| notion-meeting-intelligence | 通过从Notion收集背景信息、用Claude研究丰富内容并准备会议材料... | [链接](https://github.com/makenotion/notion-cookbook/blob/main/skills/claude/meeting-intelligence/SKILL.md) |
-| notion-research-documentation | 在您的Notion工作区中进行搜索，从多个页面综合发现并创建... | [链接](https://github.com/makenotion/notion-cookbook/blob/main/skills/claude/research-documentation/SKILL.md) |
 ### makenotion/notion-cookbook
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| notion-meeting-intelligence | 通过从Notion收集背景信息、用Claude研究丰富内容并准备会议材料... | [链接](https://github.com/makenotion/notion-cookbook/blob/main/skills/claude/meeting-intelligence/SKILL.md) |
+| notion-research-documentation | 在您的Notion工作区中进行搜索，从多个页面综合发现并创建... | [链接](https://github.com/makenotion/notion-cookbook/blob/main/skills/claude/research-documentation/SKILL.md) |
 
 
-| wemush-mycology-assistant | 使用WeMush的MCP服务器指导真菌学研究工作流程，以进行标本跟踪、研究... | [链接](https://github.com/masinu/wemush-skills/blob/main/wemush-mycology-assistant/SKILL.md) |
 ### masinu/wemush-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| wemush-mycology-assistant | 使用WeMush的MCP服务器指导真菌学研究工作流程，以进行标本跟踪、研究... | [链接](https://github.com/masinu/wemush-skills/blob/main/wemush-mycology-assistant/SKILL.md) |
 
 
-| code-review | 在代码审查实践中强调技术严谨性和基于证据的主张，而不是... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/code-review/SKILL.md) |
-| frontend-dev-guidelines | React/TypeScript应用程序的前端开发指南。 | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/frontend-development/SKILL.md) |
-| repomix | 使用Repomix将整个代码库打包成一个AI友好的文件，同时保留... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/repomix/SKILL.md) |
 ### mrgoonie/claudekit-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| code-review | 在代码审查实践中强调技术严谨性和基于证据的主张，而不是... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/code-review/SKILL.md) |
+| frontend-dev-guidelines | React/TypeScript应用程序的前端开发指南。 | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/frontend-development/SKILL.md) |
+| repomix | 使用Repomix将整个代码库打包成一个AI友好的文件，同时保留... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/repomix/SKILL.md) |
 
 
+### muratcankoylan/Agent-Skills-for-Context-Engineering
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | advanced-evaluation | 当用户请求“实现LLM作为法官”、“比较模型输出”时，应使用此技能... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/advanced-evaluation/SKILL.md) |
 | book-sft-pipeline | 当用户请求“在书籍上微调”、“创建SFT数据集”、“训练...时，应使用此技能。 | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/examples/book-sft-pipeline/SKILL.md) |
 | comprehensive-research-agent | 确保在研究任务中进行全面验证、错误恢复和透明推理... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/examples/interleaved_thinking/generated_skills/comprehensive-research-agent/SKILL.md) |
@@ -674,21 +678,21 @@
 | filesystem-context | 当用户请求“将上下文卸载到文件”、“实现动态...时，应使用此技能。 | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/filesystem-context/SKILL.md) |
 | hosted-agents | 涉及托管代理基础设施，其中代理在远程沙箱环境中运行，而不是在... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/hosted-agents/SKILL.md) |
 | project-development | 当用户请求“启动LLM项目”、“设计批处理管道...”时，应使用此技能。 | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/project-development/SKILL.md) |
-### muratcankoylan/Agent-Skills-for-Context-Engineering
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
 
 
 
 
-| zero-hallucination-research | 零幻觉多主题并行调研 v4.0（独立上下文窗口架构）。 | [链接](https://github.com/oinani0721/zero-hallucination-research/blob/main/SKILL.md) |
 ### oinani0721/zero-hallucination-research
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| zero-hallucination-research | 零幻觉多主题并行调研 v4.0（独立上下文窗口架构）。 | [链接](https://github.com/oinani0721/zero-hallucination-research/blob/main/SKILL.md) |
 
 
+### Orchestra-Research/AI-Research-SKILLs
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | awq-quantization | 针对4位LLM压缩的激活感知权重量化，具有3倍加速和最小精度... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/10-optimization/awq/SKILL.md) |
 | clip | CLIP是OpenAI的视觉-语言模型，将图像和文本嵌入到共享空间中... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/18-multimodal/clip/SKILL.md) |
 | constitutional-ai | Anthropic通过自我改进训练无害AI的方法。 | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/07-safety-alignment/constitutional-ai/SKILL.md) |
@@ -727,57 +731,57 @@
 | transformer-lens-interpretability | 提供使用TransformerLens进行机制可解释性研究的指导，以检查和... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/04-mechanistic-interpretability/transformer-lens/SKILL.md) |
 | verl-rl-training | 提供使用verl（火山引擎RL）进行强化学习训练LLMs的指导。 | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/06-post-training/verl/SKILL.md) |
 | whisper | Whisper是OpenAI的通用语音识别模型，用于多语言音频处理。 | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/18-multimodal/whisper/SKILL.md) |
-### Orchestra-Research/AI-Research-SKILLs
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| notion-spec-to-implementation | 将产品或技术规格转化为Claude代码可以实现的具体Notion任务。 | [链接](https://github.com/Prat011/awesome-llm-skills/blob/master/notion-spec-to-implementation/SKILL.md) |
 ### Prat011/awesome-llm-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| notion-spec-to-implementation | 将产品或技术规格转化为Claude代码可以实现的具体Notion任务。 | [链接](https://github.com/Prat011/awesome-llm-skills/blob/master/notion-spec-to-implementation/SKILL.md) |
 
 
+### proyecto26/research-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | deep-research | 生成格式控制的研究报告，包含证据追踪、引用和迭代审查。 | [链接](https://github.com/proyecto26/research-skills/blob/main/skills/deep-research/SKILL.md) |
 | paper-analyzer | 将学术论文转化为深入的技术文章，提供多种写作风格选项。 | [链接](https://github.com/proyecto26/research-skills/blob/main/skills/paper-analyzer/SKILL.md) |
 | paper-comic | 从学术论文生成教育漫画，利用视觉叙事解释核心思想... | [链接](https://github.com/proyecto26/research-skills/blob/main/skills/paper-comic/SKILL.md) |
 | paper-visualizer | 将研究论文转化为专业的视觉模式。 | [链接](https://github.com/proyecto26/research-skills/blob/main/skills/visual-architect/SKILL.md) |
 | paper2code | 分析研究论文（PDF/arXiv URL）并将其转换为可执行代码。 | [链接](https://github.com/proyecto26/research-skills/blob/main/skills/paper2code/SKILL.md) |
-### proyecto26/research-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| paper-visualizer | 将研究论文转化为专业的视觉模式。 | [链接](https://github.com/proyecto26/sherlock-ai-plugin/blob/main/skills/visual-architect/SKILL.md) |
 ### proyecto26/sherlock-ai-plugin
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| paper-visualizer | 将研究论文转化为专业的视觉模式。 | [链接](https://github.com/proyecto26/sherlock-ai-plugin/blob/main/skills/visual-architect/SKILL.md) |
 
 
+### Przemocny/generic-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | agentmd-creator | > 创建AI代理配置文件（AGENTS.md, CLAUDE.md, .cursorrules等）用于... | [链接](https://github.com/Przemocny/generic-skills/blob/main/skills/agentmd-creator/SKILL.md) |
 | general-research | 通过战略性提问和多源分析进行系统的互联网研究，使用... | [链接](https://github.com/Przemocny/generic-skills/blob/main/skills/general-research/SKILL.md) |
 | general-skill-refiner | 通过识别质量问题、优先修复等分析和优化代理技能... | [链接](https://github.com/Przemocny/generic-skills/blob/main/skills/general-skill-refiner/SKILL.md) |
 | general-skill-upgrader | 分析代理技能以理解其商业目的，并提出功能增强建议。 | [链接](https://github.com/Przemocny/generic-skills/blob/main/skills/general-skill-upgrader/SKILL.md) |
-### Przemocny/generic-skills
+
+
+### rand/cc-polymath
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | anti-slop | 检测和消除“AI垃圾”的全面工具包 - 通用的、低质量的AI生成... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/anti-slop/SKILL.md) |
 | discover-research | 在处理研究方法时自动发现研究方法技能... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/discover-research/SKILL.md) |
 | elegant-design | 创建世界级、可访问、响应式的界面，具有复杂的互动元素... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/elegant-design/SKILL.md) |
 | typed-holes-refactor | 此技能描述了使用按类型孔设计方法重构代码库，处理... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/typed-holes-refactor/SKILL.md) |
-### rand/cc-polymath
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| medical-imaging-review | 为医学影像AI研究撰写全面的文献综述，包括调查论文... | [链接](https://github.com/Ronitnair/research-skills/blob/main/medical-imaging-review/SKILL.md) |
 ### Ronitnair/research-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| medical-imaging-review | 为医学影像AI研究撰写全面的文献综述，包括调查论文... | [链接](https://github.com/Ronitnair/research-skills/blob/main/medical-imaging-review/SKILL.md) |
 
 
+### ruvnet/claude-flow
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | agent-analyze-code-quality | 作为只读代码质量分析代理，旨在执行全面的代码审查... | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-analyze-code-quality/SKILL.md) |
 | agent-app-store | 应用商店的代理技能 - 使用$agent-app-store调用。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-app-store/SKILL.md) |
 | agent-arch-system-design | 架构系统设计的代理技能 - 使用$agent-arch-system-design调用。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-arch-system-design/SKILL.md) |
@@ -822,20 +826,20 @@
 | swarm-advanced | 研究、开发、测试和复杂分布式系统的高级群体编排模式。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/swarm-advanced/SKILL.md) |
 | worker-integration | 工作代理集成，用于智能任务调度和性能跟踪。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/worker-integration/SKILL.md) |
 | workflow-automation | > 工作流创建、执行和模板管理。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/workflow-automation/SKILL.md) |
-### ruvnet/claude-flow
+
+
+### Shubhamsaboo/awesome-llm-apps
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | academic-researcher | 学术研究助手，用于文献综述、论文分析和学术写作。 | [链接](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/awesome_agent_skills/academic-researcher/SKILL.md) |
 | debugger | 系统调试和根本原因分析，用于识别和修复软件问题。 | [链接](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/awesome_agent_skills/debugger/SKILL.md) |
 | deep-research | 通过综合多个来源和视角的信息进行深入研究... | [链接](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/awesome_agent_skills/deep-research/SKILL.md) |
 | fact-checker | 使用基于证据的分析进行系统的事实验证和虚假信息识别。 | [链接](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/awesome_agent_skills/fact-checker/SKILL.md) |
-### Shubhamsaboo/awesome-llm-apps
+
+
+### sickn33/antigravity-awesome-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | accessibility-compliance-accessibility-audit | “您是一位专注于WCAG合规性、包容性设计和辅助技术的可访问性专家... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/accessibility-compliance-accessibility-audit/SKILL.md) |
 | agent-framework-azure-ai-py | 此技能使用Microsoft Agent Framework Python在Azure AI Foundry上构建持久代理... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/agent-framework-azure-ai-py/SKILL.md) |
 | agent-orchestration-improve-agent | “通过性能分析、提示工程和系统性改进现有代理。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/agent-orchestration-improve-agent/SKILL.md) |
@@ -937,23 +941,23 @@
 | wiki-qa | 使用源文件分析回答有关代码库的问题。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/wiki-qa/SKILL.md) |
 | Wireshark Network Traffic Analysis | 当用户请求“使用 Wireshark 分析网络流量”、“捕获... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/wireshark-analysis/SKILL.md) |
 | xlsx | 综合电子表格的创建、编辑和分析，支持公式、格式化... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/xlsx-official/SKILL.md) |
-### sickn33/antigravity-awesome-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| infinite-gratitude | 多代理研究，持续带回礼物——就像猫一样！派遣多个代理去... | [链接](https://github.com/sstklen/infinite-gratitude/blob/main/SKILL.md) |
 ### sstklen/infinite-gratitude
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| infinite-gratitude | 多代理研究，持续带回礼物——就像猫一样！派遣多个代理去... | [链接](https://github.com/sstklen/infinite-gratitude/blob/main/SKILL.md) |
 
 
-| research-documentation | 研究主题并在 Notion 中记录发现，结构清晰且有来源。 | [链接](https://github.com/tommy-ca/notion-skills/blob/main/plugins/notion-skills/skills/research-documentation/SKILL.md) |
 ### tommy-ca/notion-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| research-documentation | 研究主题并在 Notion 中记录发现，结构清晰且有来源。 | [链接](https://github.com/tommy-ca/notion-skills/blob/main/plugins/notion-skills/skills/research-documentation/SKILL.md) |
 
 
+### trailofbits/skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | address-sanitizer | > AddressSanitizer 在模糊测试期间检测内存错误。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md) |
 | algorand-vulnerability-scanner | 扫描 Algorand 智能合约中的 11 种常见漏洞，包括重新密钥攻击、未检查... | [链接](https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/algorand-vulnerability-scanner/SKILL.md) |
 | audit-context-building | 启用超细粒度的逐行代码分析，以在... | [链接](https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building/skills/audit-context-building/SKILL.md) |
@@ -975,17 +979,17 @@
 | token-integration-analyzer | 系统地分析代币实现和集成的安全问题，使用... | [链接](https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/token-integration-analyzer/SKILL.md) |
 | ton-vulnerability-scanner | 扫描用 FunC 编写的 TON 智能合约中的 3 种关键漏洞：整数作为布尔值... | [链接](https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/ton-vulnerability-scanner/SKILL.md) |
 | yara-rule-authoring | > 指导高质量 YARA-X 检测规则的编写，以识别恶意软件。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md) |
-### trailofbits/skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| digdag | Treasure Workflow（digdag）用于 TD。 | [链接](https://github.com/treasure-data/td-skills/blob/main/workflow-skills/digdag/SKILL.md) |
 ### treasure-data/td-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| digdag | Treasure Workflow（digdag）用于 TD。 | [链接](https://github.com/treasure-data/td-skills/blob/main/workflow-skills/digdag/SKILL.md) |
 
 
+### u9401066/pubmed-search-mcp
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | changelog-updater | 根据 Keep a Changelog 格式自动更新 CHANGELOG.md。 | [链接](https://github.com/u9401066/pubmed-search-mcp/blob/master/.claude/skills/changelog-updater/SKILL.md) |
 | code-refactor | 主动检测并执行代码重构，以维护 DDD 架构和代码质量。 | [链接](https://github.com/u9401066/pubmed-search-mcp/blob/master/.claude/skills/code-refactor/SKILL.md) |
 | ddd-architect | 此技能确保代码库遵循领域驱动设计（DDD）架构和数据访问... | [链接](https://github.com/u9401066/pubmed-search-mcp/blob/master/.claude/skills/ddd-architect/SKILL.md) |
@@ -1008,25 +1012,25 @@
 | roadmap-updater | 根据已完成的功能自动更新 ROADMAP.md 状态。 | [链接](https://github.com/u9401066/pubmed-search-mcp/blob/master/.claude/skills/roadmap-updater/SKILL.md) |
 | test-generator | 生成全面的测试套件，包括静态分析、单元测试、集成测试和... | [链接](https://github.com/u9401066/pubmed-search-mcp/blob/master/.claude/skills/test-generator/SKILL.md) |
 | tool-sync | 当工具被添加、删除或重命名时，自动同步 MCP 工具文档。 | [链接](https://github.com/u9401066/pubmed-search-mcp/blob/master/.claude/skills/tool-sync/SKILL.md) |
-### u9401066/pubmed-search-mcp
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| research-report | 将深度研究结果总结为markdown报告，涵盖所有领域，跳过不确定值。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research-report/SKILL.md) |
 ### Weizhena/Deep-Research-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| research-report | 将深度研究结果总结为markdown报告，涵盖所有领域，跳过不确定值。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research-report/SKILL.md) |
 
 
 
 
-| paper-visualizer | 将研究论文转化为专业的视觉架构图。 | [链接](https://github.com/WilsonWukz/paper-visualizer-skill/blob/main/skills/visual-architect/SKILL.md) |
 ### WilsonWukz/paper-visualizer-skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| paper-visualizer | 将研究论文转化为专业的视觉架构图。 | [链接](https://github.com/WilsonWukz/paper-visualizer-skill/blob/main/skills/visual-architect/SKILL.md) |
 
 
+### wshobson/agents
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | architecture-decision-records | 编写和维护架构决策记录（ADRs），遵循技术最佳实践... | [链接](https://github.com/wshobson/agents/blob/main/plugins/documentation-generation/skills/architecture-decision-records/SKILL.md) |
 | code-review-excellence | 掌握有效的代码审查实践，以提供建设性反馈，尽早发现错误，并... | [链接](https://github.com/wshobson/agents/blob/main/plugins/developer-essentials/skills/code-review-excellence/SKILL.md) |
 | context-driven-development | 创建和维护结构化的项目上下文文档（product.md、tech-stack.md、workflow.md，... | [链接](https://github.com/wshobson/agents/blob/main/plugins/conductor/skills/context-driven-development/SKILL.md) |
@@ -1047,17 +1051,14 @@
 | team-composition-patterns | 设计最佳代理团队组合，使用规模启发式、预设配置和代理... | [链接](https://github.com/wshobson/agents/blob/main/plugins/agent-teams/skills/team-composition-patterns/SKILL.md) |
 | wcag-audit-patterns | 进行WCAG 2.2无障碍审计，包含自动化测试、手动验证和补救... | [链接](https://github.com/wshobson/agents/blob/main/plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md) |
 | workflow-patterns | 在根据Conductor的TDD工作流程实施任务时使用此技能，处理阶段... | [链接](https://github.com/wshobson/agents/blob/main/plugins/conductor/skills/workflow-patterns/SKILL.md) |
-### wshobson/agents
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| baoyu-gemini-web | 作为Gemini Web客户端，促进文本生成和文本到图像生成。 | [链接](https://github.com/zsyggg/paper-craft-skills/blob/main/skills/baoyu-gemini-web/SKILL.md) |
-| paper-analyzer | 将学术论文转化为深度技术文章，支持多种写作风格选择。 | [链接](https://github.com/zsyggg/paper-craft-skills/blob/main/skills/paper-analyzer/SKILL.md) |
-| paper-comic | 从学术论文生成教育漫画，用视觉叙事解释核心观点和创新点。 | [链接](https://github.com/zsyggg/paper-craft-skills/blob/main/skills/paper-comic/SKILL.md) |
 ### zsyggg/paper-craft-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| baoyu-gemini-web | 作为Gemini Web客户端，促进文本生成和文本到图像生成。 | [链接](https://github.com/zsyggg/paper-craft-skills/blob/main/skills/baoyu-gemini-web/SKILL.md) |
+| paper-analyzer | 将学术论文转化为深度技术文章，支持多种写作风格选择。 | [链接](https://github.com/zsyggg/paper-craft-skills/blob/main/skills/paper-analyzer/SKILL.md) |
+| paper-comic | 从学术论文生成教育漫画，用视觉叙事解释核心观点和创新点。 | [链接](https://github.com/zsyggg/paper-craft-skills/blob/main/skills/paper-comic/SKILL.md) |
 
 
 
@@ -1066,58 +1067,61 @@
 ## 03 实验、基准测试与可复现性验证 (589 个技能)
 
 
+### affaan-m/everything-claude-code
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | django-patterns | Django架构模式、使用DRF的REST API设计、ORM最佳实践、缓存、信号... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/django-patterns/SKILL.md) |
 | golang-testing | Go测试模式，包括表驱动测试、子测试、基准测试、模糊测试和测试覆盖率。 | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/golang-testing/SKILL.md) |
 | iterative-retrieval | 逐步优化上下文检索以解决子代理上下文问题的模式。 | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/iterative-retrieval/SKILL.md) |
 | springboot-patterns | Spring Boot架构模式、REST API设计、分层服务、数据访问、缓存、异步... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/springboot-patterns/SKILL.md) |
-### affaan-m/everything-claude-code
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| multi-agent-researcher | 通过协调2-4个专业研究代理进行任何主题的全面研究... | [链接](https://github.com/ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill/blob/main/.claude/skills/multi-agent-researcher/SKILL.md) |
 ### ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| multi-agent-researcher | 通过协调2-4个专业研究代理进行任何主题的全面研究... | [链接](https://github.com/ahmedibrahim085/Claude-Multi-Agent-Research-System-Skill/blob/main/.claude/skills/multi-agent-researcher/SKILL.md) |
 
 
-| senior-computer-vision | 计算机视觉工程技能，用于构建和部署视觉AI系统，重点关注... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/engineering-team/senior-computer-vision/SKILL.md) |
-| tech-stack-evaluator | 技术栈评估和比较，包括TCO分析、安全评估和生态系统... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/engineering-team/tech-stack-evaluator/SKILL.md) |
 ### alirezarezvani/claude-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| senior-computer-vision | 计算机视觉工程技能，用于构建和部署视觉AI系统，重点关注... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/engineering-team/senior-computer-vision/SKILL.md) |
+| tech-stack-evaluator | 技术栈评估和比较，包括TCO分析、安全评估和生态系统... | [链接](https://github.com/alirezarezvani/claude-skills/blob/main/engineering-team/tech-stack-evaluator/SKILL.md) |
 
 
-| Hook Development | 当用户要求“创建钩子”、“添加PreToolUse/PostToolUse/Stop时使用此技能... | [链接](https://github.com/anthropics/claude-code/blob/main/plugins/plugin-dev/skills/hook-development/SKILL.md) |
 ### anthropics/claude-code
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| Hook Development | 当用户要求“创建钩子”、“添加PreToolUse/PostToolUse/Stop时使用此技能... | [链接](https://github.com/anthropics/claude-code/blob/main/plugins/plugin-dev/skills/hook-development/SKILL.md) |
 
 
-| scvi-tools | 使用scvi-tools提供基于深度学习的单细胞分析指导，处理数据... | [链接](https://github.com/anthropics/life-sciences/blob/main/scvi-tools/SKILL.md) |
 ### anthropics/life-sciences
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| scvi-tools | 使用scvi-tools提供基于深度学习的单细胞分析指导，处理数据... | [链接](https://github.com/anthropics/life-sciences/blob/main/scvi-tools/SKILL.md) |
 
 
-| csv-data-summarizer | 分析CSV文件，生成摘要统计，并使用Python和pandas绘制快速可视化。 | [链接](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill/blob/main/SKILL.md) |
 ### coffeefuelbump/csv-data-summarizer-claude-skill
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| csv-data-summarizer | 分析CSV文件，生成摘要统计，并使用Python和pandas绘制快速可视化。 | [链接](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill/blob/main/SKILL.md) |
 
 
-| Apify Automation | 使用Apify自动化网页抓取和数据提取——运行Actors，管理数据集，创建... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/apify-automation/SKILL.md) |
 ### ComposioHQ/awesome-claude-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| Apify Automation | 使用Apify自动化网页抓取和数据提取——运行Actors，管理数据集，创建... | [链接](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/apify-automation/SKILL.md) |
 
 
-| run-experiment | 指导启动AI/ML训练实验。 | [链接](https://github.com/CUN-bjy/research-skills/blob/main/.claude/skills/run-experiment/SKILL.md) |
 ### CUN-bjy/research-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| run-experiment | 指导启动AI/ML训练实验。 | [链接](https://github.com/CUN-bjy/research-skills/blob/main/.claude/skills/run-experiment/SKILL.md) |
 
 
+### danielmiessler/Personal_AI_Infrastructure
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | BrightData | 逐步URL抓取，具有四层后备 - WebFetch、Curl、浏览器自动化、Bright Data... | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Packs/pai-brightdata-skill/src/skills/BrightData/SKILL.md) |
 | Browser | 使用Playwright促进视觉验证和浏览器自动化，主要关注... | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Packs/pai-browser-skill/src/skills/Browser/SKILL.md) |
 | FirstPrinciples | 从第一原理进行分析。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Packs/pai-firstprinciples-skill/src/skills/FirstPrinciples/SKILL.md) |
@@ -1125,9 +1129,6 @@
 | PromptInjection | 提示注入测试。 | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.4/.claude/skills/PromptInjection/SKILL.md) |
 | Research | 具有可配置模式（快速/标准/广泛/深入调查）的多代理研究系统... | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Packs/pai-research-skill/src/skills/Research/SKILL.md) |
 | System | 提供系统验证、完整性审计、文档跟踪和安全扫描... | [链接](https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Packs/pai-system-skill/src/skills/System/SKILL.md) |
-### danielmiessler/Personal_AI_Infrastructure
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
 
@@ -1136,23 +1137,26 @@
 
 
 
-| dspy-ruby | 使用DSPy.rb构建类型安全的LLM应用程序——Ruby的编程提示框架，具有... | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/dspy-ruby/SKILL.md) |
 ### EveryInc/every-marketplace
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| dspy-ruby | 使用DSPy.rb构建类型安全的LLM应用程序——Ruby的编程提示框架，具有... | [链接](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compound-engineering/skills/dspy-ruby/SKILL.md) |
 
 
+### ForaeFactory/antigravity-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | agent-memory-systems | 涉及代理记忆系统的架构，包括短期记忆（上下文窗口）、... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/agent-memory-systems/SKILL.md) |
 | autonomous-agents | 解释自主代理如何分解目标、规划行动、执行工具和自我纠正... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/autonomous-agents/SKILL.md) |
 | langgraph | 提供构建有状态、多参与者AI应用程序的架构指导，使用... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/langgraph/SKILL.md) |
 | nodejs-best-practices | Node.js开发原则和决策。 | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/nodejs-best-practices/SKILL.md) |
 | prompt-engineer | 在设计有效的LLM驱动应用程序的提示方面的专家。 | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/prompt-engineer/SKILL.md) |
 | rag-implementation | 检索增强生成模式，包括分块、嵌入、向量存储和... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/rag-implementation/SKILL.md) |
-### ForaeFactory/antigravity-skills
+
+
+### GPTomics/bioSkills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | bio-alignment-files-bam-statistics | 使用samtools flagstat、stats、depth和coverage生成对齐统计。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/alignment-files/bam-statistics/SKILL.md) |
 | bio-alignment-indexing | 使用samtools和pysam为BAM/CRAM文件创建和使用BAI/CSI索引。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/alignment-files/alignment-indexing/SKILL.md) |
 | bio-alignment-msa-parsing | 使用Biopython解析和分析多个序列比对。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/alignment/msa-parsing/SKILL.md) |
@@ -1331,29 +1335,29 @@
 | bio-workflows-tcr-pipeline | 从FASTQ到克隆型多样性指标的端到端TCR/BCR库分析。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/tcr-pipeline/SKILL.md) |
 | bio-workflows-timecourse-pipeline | 从表达矩阵和时间开始运行端到端时间序列分析工作流程... | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/timecourse-pipeline/SKILL.md) |
 | bioskills | “安装425个生物信息学技能，涵盖序列分析、RNA-seq、单细胞、变异... | [链接](https://github.com/GPTomics/bioSkills/blob/main/bioskills-installer/SKILL.md) |
-### GPTomics/bioSkills
+
+
+### hangoclong/skills-antigravity-awesome
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | agent-memory-systems | 涵盖代理记忆系统的架构，包括短期记忆（上下文窗口）... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/agent-memory-systems/SKILL.md) |
 | autonomous-agents | 描述如何设计自主代理以分解目标、规划行动、执行工具，并... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/autonomous-agents/SKILL.md) |
 | langgraph | 涵盖使用LangGraph构建有状态的多参与者AI应用程序作为显式图。 | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/langgraph/SKILL.md) |
 | nodejs-best-practices | Node.js开发原则和决策。 | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/nodejs-best-practices/SKILL.md) |
-### hangoclong/skills-antigravity-awesome
+
+
+### huysynf/antigravity-awesome-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | agent-memory-systems | 涵盖代理记忆系统的架构，包括短期记忆（上下文窗口）... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/agent-memory-systems/SKILL.md) |
 | autonomous-agents | 描述如何构建自主代理以分解目标、规划行动、执行工具，并... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/autonomous-agents/SKILL.md) |
 | langgraph | 涵盖使用LangGraph作为构建有状态的多参与者AI应用程序的框架... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/langgraph/SKILL.md) |
 | nodejs-best-practices | Node.js开发原则和决策。 | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/nodejs-best-practices/SKILL.md) |
-### huysynf/antigravity-awesome-skills
+
+
+### Jeffallan/claude-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | chaos-engineer | 在设计混沌实验、实施故障注入框架或进行游戏... | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/chaos-engineer/SKILL.md) |
 | cli-developer | 在构建CLI工具、实现参数解析或添加交互式提示时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/cli-developer/SKILL.md) |
 | debugging-wizard | 在调查错误、分析堆栈跟踪或查找意外行为的根本原因时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/debugging-wizard/SKILL.md) |
@@ -1367,11 +1371,11 @@
 | rag-architect | 在构建RAG系统、向量数据库或需要知识基础的AI应用程序时使用... | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/rag-architect/SKILL.md) |
 | rust-engineer | 在构建需要内存安全、系统编程或零成本抽象的Rust应用程序时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/rust-engineer/SKILL.md) |
 | spark-engineer | 在构建Apache Spark应用程序、分布式数据处理管道或优化时使用... | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/spark-engineer/SKILL.md) |
-### Jeffallan/claude-skills
+
+
+### K-Dense-AI/claude-scientific-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | adaptyv | 提供一个云实验室平台，通过API进行自动化蛋白质测试和湿实验验证... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/adaptyv/SKILL.md) |
 | aeon | 在Python中使用Aeon进行时间序列机器学习，具有与scikit-learn兼容的API。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/aeon/SKILL.md) |
 | alphafold-database | 访问AlphaFold 200M+ AI预测的蛋白质结构。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/alphafold-database/SKILL.md) |
@@ -1434,35 +1438,35 @@
 | transformers | 当处理预训练的变换器模型以进行自然语言处理时，应使用此技能... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/transformers/SKILL.md) |
 | umap-learn | UMAP 降维。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/umap-learn/SKILL.md) |
 | vaex | 使用 Vaex 处理和分析过大而无法放入 RAM 的表格数据集，采用延迟... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/vaex/SKILL.md) |
-### K-Dense-AI/claude-scientific-skills
+
+
+### mrgoonie/claudekit-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | chrome-devtools | 使用 Puppeteer CLI 脚本进行浏览器自动化、调试和性能分析。 | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/chrome-devtools/SKILL.md) |
 | context-engineering | >- 掌握 AI 代理系统的上下文工程。 | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/context-engineering/SKILL.md) |
 | debugging | 系统化调试框架，用于查找和修复错误 - 包括根本原因分析... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/debugging/SKILL.md) |
 | Defense-in-Depth Validation | 验证数据在每一层的传递，以使错误不可能发生。 | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/debugging/defense-in-depth/SKILL.md) |
 | docs-seeker | 提供一个工作流程，用于使用多个... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/docs-seeker/SKILL.md) |
 | Systematic Debugging | 四阶段调试框架，确保在尝试修复之前进行根本原因调查。 | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/debugging/systematic-debugging/SKILL.md) |
-### mrgoonie/claudekit-skills
+
+
+### muratcankoylan/Agent-Skills-for-Context-Engineering
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | context-degradation | 当用户要求“诊断上下文问题”、“修复中间丢失问题”时，应使用此技能... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md) |
 | context-engineering-collection | 一套全面的代理技能集合，用于上下文工程、多代理架构和... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/SKILL.md) |
 | context-optimization | 当用户要求“优化上下文”、“降低令牌成本”、“改善时，应使用此技能... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md) |
 | memory-systems | 此技能指导代理记忆系统的设计和实现，以持久化知识... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/memory-systems/SKILL.md) |
 | multi-agent-patterns | 当用户要求“设计多代理系统”、“实现监督者时，应使用此技能... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/multi-agent-patterns/SKILL.md) |
 | tool-design | 当用户要求“设计代理工具”、“创建工具描述时，应使用此技能... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/tool-design/SKILL.md) |
-### muratcankoylan/Agent-Skills-for-Context-Engineering
+
+
+
+
+### Orchestra-Research/AI-Research-SKILLs
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
-
-
 | audiocraft-audio-generation | 包含文本到音乐（MusicGen）和文本到声音的音频生成的 PyTorch 库。 | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/18-multimodal/audiocraft/SKILL.md) |
 | autogpt-agents | 用于构建和部署连续代理的自主 AI 代理平台。 | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/14-agents/autogpt/SKILL.md) |
 | axolotl | 使用 Axolotl 进行 LLM 微调的专家指导 - YAML 配置、100 多个模型、LoRA/QLoRA... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/03-fine-tuning/axolotl/SKILL.md) |
@@ -1495,27 +1499,27 @@
 | tensorrt-llm | TensorRT-LLM是一个优化库，用于实现高吞吐量和低延迟的大型... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/12-inference-serving/tensorrt-llm/SKILL.md) |
 | torchforge-rl-training | 提供PyTorch原生代理RL的指导，使用torchforge，Meta的库分离基础设施... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/06-post-training/torchforge/SKILL.md) |
 | weights-and-biases | 通过自动日志记录跟踪ML实验，实时可视化训练，优化... | [链接](https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/13-mlops/weights-and-biases/SKILL.md) |
-### Orchestra-Research/AI-Research-SKILLs
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| genimg-gemini-web | 使用Gemini Web进行图像生成技能。 | [链接](https://github.com/proyecto26/research-skills/blob/main/skills/genimg-gemini-web/SKILL.md) |
 ### proyecto26/research-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| genimg-gemini-web | 使用Gemini Web进行图像生成技能。 | [链接](https://github.com/proyecto26/research-skills/blob/main/skills/genimg-gemini-web/SKILL.md) |
 
 
 
 
-| discover-agentic | 在构建AI代理时自动发现代理工作流技能，实现工具使用... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/discover-agentic/SKILL.md) |
-| discover-database | 在使用SQL、PostgreSQL、MongoDB、Redis等数据库时自动发现数据库技能... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/discover-database/SKILL.md) |
-| discover-ml | 在处理机器学习、ML、AI等时自动发现机器学习和AI技能... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/discover-ml/SKILL.md) |
 ### rand/cc-polymath
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| discover-agentic | 在构建AI代理时自动发现代理工作流技能，实现工具使用... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/discover-agentic/SKILL.md) |
+| discover-database | 在使用SQL、PostgreSQL、MongoDB、Redis等数据库时自动发现数据库技能... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/discover-database/SKILL.md) |
+| discover-ml | 在处理机器学习、ML、AI等时自动发现机器学习和AI技能... | [链接](https://github.com/rand/cc-polymath/blob/main/skills/discover-ml/SKILL.md) |
 
 
+### ruvnet/claude-flow
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | agent-adaptive-coordinator | 自适应协调器的代理技能 - 使用$agent-adaptive-coordinator调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-adaptive-coordinator/SKILL.md) |
 | agent-agent | 代理的代理技能 - 使用$agent-agent调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-agent/SKILL.md) |
 | agent-architecture | 架构的代理技能 - 使用$agent-architecture调用 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-architecture/SKILL.md) |
@@ -1558,17 +1562,17 @@
 | V3 Deep Integration | "深度代理流@alpha集成，实施ADR-001。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/v3-integration-deep/SKILL.md) |
 | V3 MCP Optimization | "claude-flow v3的MCP服务器优化和传输层增强。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/v3-mcp-optimization/SKILL.md) |
 | V3 Performance Optimization | "实现激进的v3性能目标：2.49x-7.47x的Flash Attention加速，150x-12,500x... | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/v3-performance-optimization/SKILL.md) |
-### ruvnet/claude-flow
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| data-analyst | SQL、pandas和统计分析专业知识，用于数据探索和洞察。 | [链接](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/awesome_agent_skills/data-analyst/SKILL.md) |
 ### Shubhamsaboo/awesome-llm-apps
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| data-analyst | SQL、pandas和统计分析专业知识，用于数据探索和洞察。 | [链接](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/awesome_agent_skills/data-analyst/SKILL.md) |
 
 
+### sickn33/antigravity-awesome-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | agent-evaluation | 此技能专注于通过框架测试和基准测试大型语言模型代理... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/agent-evaluation/SKILL.md) |
 | agent-memory-systems | 此技能涉及智能代理的内存系统的架构和设计，专注于... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/agent-memory-systems/SKILL.md) |
 | agent-orchestration-multi-agent-optimize | "优化多代理系统，进行协调分析、工作负载分配和成本意识... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/agent-orchestration-multi-agent-optimize/SKILL.md) |
@@ -1657,11 +1661,11 @@
 | vector-database-engineer | 在向量数据库、嵌入策略和语义搜索实现方面的专家。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/vector-database-engineer/SKILL.md) |
 | vector-index-tuning | 优化向量索引性能，以提高延迟、召回率和内存使用。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/vector-index-tuning/SKILL.md) |
 | workflow-orchestration-patterns | 该技能提供了设计耐用工作流编排的架构指导。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/workflow-orchestration-patterns/SKILL.md) |
-### sickn33/antigravity-awesome-skills
+
+
+### trailofbits/skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | aflpp | > AFL++是AFL的一个分支，具有更好的模糊测试性能和高级功能。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/aflpp/SKILL.md) |
 | atheris | > Atheris是基于libFuzzer的覆盖引导Python模糊测试工具。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/atheris/SKILL.md) |
 | code-maturity-assessor | 使用涵盖多个方面的 9 类框架系统地评估代码库的成熟度。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/building-secure-contracts/skills/code-maturity-assessor/SKILL.md) |
@@ -1673,27 +1677,27 @@
 | ossfuzz | > OSS-Fuzz为开源项目提供免费的持续模糊测试。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/ossfuzz/SKILL.md) |
 | semgrep-rule-creator | 创建自定义 Semgrep 规则以检测安全漏洞、错误模式和代码缺陷。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md) |
 | wycheproof | > Wycheproof提供用于验证加密实现的测试向量。 | [链接](https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills/skills/wycheproof/SKILL.md) |
-### trailofbits/skills
+
+
+### treasure-data/td-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
-
-
 | agent-test | 使用 `tdx agent test` 为 LLM 代理运行自动化测试。 | [链接](https://github.com/treasure-data/td-skills/blob/main/tdx-skills/agent-test/SKILL.md) |
 | aps-doc-core | Treasure Data管道层的核心文档生成模式和框架。 | [链接](https://github.com/treasure-data/td-skills/blob/main/aps-doc-skills/core/SKILL.md) |
 | aps-doc-master-segment | CDP Master Segment（父段）配置的专家文档生成。 | [链接](https://github.com/treasure-data/td-skills/blob/main/aps-doc-skills/master-segment/SKILL.md) |
 | pytd | 使用 pytd（Python SDK）查询和导入 Treasure Data 的数据的专家协助。 | [链接](https://github.com/treasure-data/td-skills/blob/main/sdk-skills/python/SKILL.md) |
-### treasure-data/td-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| research | 对某个主题进行初步研究并生成研究大纲。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research/SKILL.md) |
-| research-deep | 阅读研究大纲，为每个项目启动独立代理进行深入研究。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research-deep/SKILL.md) |
 ### Weizhena/Deep-Research-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| research | 对某个主题进行初步研究并生成研究大纲。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research/SKILL.md) |
+| research-deep | 阅读研究大纲，为每个项目启动独立代理进行深入研究。 | [链接](https://github.com/Weizhena/Deep-Research-skills/blob/master/skills/research-en/research-deep/SKILL.md) |
 
 
+### wshobson/agents
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | bazel-build-optimization | 优化大型单一代码库的 Bazel 构建。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/developer-essentials/skills/bazel-build-optimization/SKILL.md) |
 | data-quality-frameworks | 使用 Great Expectations、dbt 测试和数据合同实现数据质量验证。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/data-engineering/skills/data-quality-frameworks/SKILL.md) |
 | dbt-transformation-patterns | 精通 dbt（数据构建工具）用于分析工程，掌握模型组织、测试等。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/data-engineering/skills/dbt-transformation-patterns/SKILL.md) |
@@ -1713,9 +1717,6 @@
 | sql-optimization-patterns | 精通 SQL 查询优化、索引策略和 EXPLAIN 分析，以显著提高性能。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/developer-essentials/skills/sql-optimization-patterns/SKILL.md) |
 | vector-index-tuning | 优化向量索引性能，以提高延迟、召回率和内存使用。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/llm-application-dev/skills/vector-index-tuning/SKILL.md) |
 | workflow-orchestration-patterns | 使用 Temporal 为分布式系统设计耐用的工作流。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/backend-development/skills/workflow-orchestration-patterns/SKILL.md) |
-### wshobson/agents
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
 
@@ -1724,10 +1725,10 @@
 ## 04 数据分析与证据解读 (178 个技能)
 
 
-| MCP Server Management | 管理外部 MCP 服务器连接，以扩展 Thoth 的功能。 | [链接](https://github.com/acertainKnight/project-thoth/blob/main/src/thoth/skills/bundled/mcp-management/SKILL.md) |
 ### acertainKnight/project-thoth
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| MCP Server Management | 管理外部 MCP 服务器连接，以扩展 Thoth 的功能。 | [链接](https://github.com/acertainKnight/project-thoth/blob/main/src/thoth/skills/bundled/mcp-management/SKILL.md) |
 
 
 
@@ -1736,12 +1737,15 @@
 
 
 
-| Linux Production Shell Scripts | 当用户要求“创建 bash 脚本”、“自动化 Linux 任务”等时应使用此技能。 | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/linux-shell-scripting/SKILL.md) |
 ### ForaeFactory/antigravity-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| Linux Production Shell Scripts | 当用户要求“创建 bash 脚本”、“自动化 Linux 任务”等时应使用此技能。 | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/linux-shell-scripting/SKILL.md) |
 
 
+### GPTomics/bioSkills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | bio-alignment-filtering | 使用 samtools view 和 pysam 按标志、映射质量和区域过滤比对。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/alignment-files/alignment-filtering/SKILL.md) |
 | bio-alignment-io | 使用 Biopython Bio.AlignIO 读取、写入和转换多个序列比对文件。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/alignment/alignment-io/SKILL.md) |
 | bio-alignment-sorting | 使用 samtools 和 pysam 按坐标或读取名称对比对文件进行排序。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/alignment-files/alignment-sorting/SKILL.md) |
@@ -1869,59 +1873,59 @@
 | bio-workflows-riboseq-pipeline | 从FASTQ到翻译效率和ORF检测的端到端Ribo-seq分析。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/riboseq-pipeline/SKILL.md) |
 | bio-workflows-rnaseq-to-de | 从FASTQ文件到差异表达结果的端到端RNA-seq工作流程。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/rnaseq-to-de/SKILL.md) |
 | bio-workflows-smrna-pipeline | 从FASTQ到差异miRNA表达的端到端小RNA-seq分析。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/smrna-pipeline/SKILL.md) |
-### GPTomics/bioSkills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| Linux Production Shell Scripts | 当用户要求“创建bash脚本”、“自动化Linux任务”时应使用此技能... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/linux-shell-scripting/SKILL.md) |
 ### hangoclong/skills-antigravity-awesome
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| Linux Production Shell Scripts | 当用户要求“创建bash脚本”、“自动化Linux任务”时应使用此技能... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/linux-shell-scripting/SKILL.md) |
 
 
-| Linux Production Shell Scripts | 当用户要求“创建bash脚本”、“自动化Linux任务”时应使用此技能... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/linux-shell-scripting/SKILL.md) |
 ### huysynf/antigravity-awesome-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| Linux Production Shell Scripts | 当用户要求“创建bash脚本”、“自动化Linux任务”时应使用此技能... | [链接](https://github.com/huysynf/antigravity-awesome-skills/blob/main/skills/linux-shell-scripting/SKILL.md) |
 
 
-| pandas-pro | 在处理pandas DataFrame、数据清理、聚合、合并或时间序列... | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/pandas-pro/SKILL.md) |
-| postgres-pro | 在优化PostgreSQL查询、配置复制或实施高级数据库... | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/postgres-pro/SKILL.md) |
-| swift-expert | 在使用Swift 5.9+、SwiftUI或async/await并发构建iOS/macOS应用程序时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/swift-expert/SKILL.md) |
 ### Jeffallan/claude-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| pandas-pro | 在处理pandas DataFrame、数据清理、聚合、合并或时间序列... | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/pandas-pro/SKILL.md) |
+| postgres-pro | 在优化PostgreSQL查询、配置复制或实施高级数据库... | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/postgres-pro/SKILL.md) |
+| swift-expert | 在使用Swift 5.9+、SwiftUI或async/await并发构建iOS/macOS应用程序时使用。 | [链接](https://github.com/Jeffallan/claude-skills/blob/main/skills/swift-expert/SKILL.md) |
 
 
+### K-Dense-AI/claude-scientific-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | dask | 用于大于RAM的pandas/NumPy工作流的分布式计算。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/dask/SKILL.md) |
 | pymc-bayesian-modeling | 使用PyMC进行贝叶斯建模。 | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/pymc/SKILL.md) |
 | seaborn | 通过与pandas的深度集成，在Python中提供数据集导向的统计可视化... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/seaborn/SKILL.md) |
 | shap | 使用SHAP（SHapley Additive exPlanations）提供模型可解释性和解释性... | [链接](https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/shap/SKILL.md) |
-### K-Dense-AI/claude-scientific-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| ai-multimodal | 使用Google Gemini API处理和生成多媒体内容，包括音频、图像、视频... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/ai-multimodal/SKILL.md) |
-| sequential-thinking | 当复杂问题需要系统的逐步推理，并能够修订时使用... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/sequential-thinking/SKILL.md) |
 ### mrgoonie/claudekit-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| ai-multimodal | 使用Google Gemini API处理和生成多媒体内容，包括音频、图像、视频... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/ai-multimodal/SKILL.md) |
+| sequential-thinking | 当复杂问题需要系统的逐步推理，并能够修订时使用... | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/sequential-thinking/SKILL.md) |
 
 
-| bdi-mental-states | 利用形式化的信念-欲望-意图模型将外部RDF上下文转化为代理的心理状态... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/bdi-mental-states/SKILL.md) |
 ### muratcankoylan/Agent-Skills-for-Context-Engineering
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| bdi-mental-states | 利用形式化的信念-欲望-意图模型将外部RDF上下文转化为代理的心理状态... | [链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/bdi-mental-states/SKILL.md) |
 
 
-| agent-production-validator | 代理技能用于生产验证者 - 使用$agent-production-validator调用。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-production-validator/SKILL.md) |
 ### ruvnet/claude-flow
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| agent-production-validator | 代理技能用于生产验证者 - 使用$agent-production-validator调用。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-production-validator/SKILL.md) |
 
 
+### sickn33/antigravity-awesome-skills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | azure-ai-contentsafety-java | 使用Azure AI内容安全SDK for Java构建内容审核应用程序。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/azure-ai-contentsafety-java/SKILL.md) |
 | azure-ai-contentsafety-py | Azure AI内容安全SDK for Python。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/azure-ai-contentsafety-py/SKILL.md) |
 | azure-ai-textanalytics-py | Azure AI文本分析SDK用于情感分析、实体识别、关键短语、语言... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/azure-ai-textanalytics-py/SKILL.md) |
@@ -1939,44 +1943,44 @@
 | shellcheck-configuration | 掌握ShellCheck静态分析配置和使用，以提高shell脚本质量。 | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/shellcheck-configuration/SKILL.md) |
 | sql-optimization-patterns | 通过系统的查询调优、适当的索引策略和... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/sql-optimization-patterns/SKILL.md) |
 | unit-testing-test-generate | 在各语言中生成全面、可维护的单元测试，具有强覆盖率和边缘案例... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/unit-testing-test-generate/SKILL.md) |
-### sickn33/antigravity-awesome-skills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
 
 
-| trino | TD Trino SQL与TD特定函数（td_interval、td_time_range、td_time_string、td_sessionize）。 | [链接](https://github.com/treasure-data/td-skills/blob/main/sql-skills/trino/SKILL.md) |
-| trino-to-hive-migration | 当发生内存错误时，将Trino查询转换为Hive。 | [链接](https://github.com/treasure-data/td-skills/blob/main/sql-skills/trino-to-hive-migration/SKILL.md) |
 ### treasure-data/td-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| trino | TD Trino SQL与TD特定函数（td_interval、td_time_range、td_time_string、td_sessionize）。 | [链接](https://github.com/treasure-data/td-skills/blob/main/sql-skills/trino/SKILL.md) |
+| trino-to-hive-migration | 当发生内存错误时，将Trino查询转换为Hive。 | [链接](https://github.com/treasure-data/td-skills/blob/main/sql-skills/trino-to-hive-migration/SKILL.md) |
 
 
-| binary-analysis-patterns | 掌握二进制分析模式，包括反汇编、反编译、控制流分析和... | [链接](https://github.com/wshobson/agents/blob/main/plugins/reverse-engineering/skills/binary-analysis-patterns/SKILL.md) |
-| python-type-safety | Python类型安全，使用类型提示、泛型、协议和严格类型检查。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/python-development/skills/python-type-safety/SKILL.md) |
-| shellcheck-configuration | 掌握ShellCheck静态分析配置和使用，以提高shell脚本质量。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/shell-scripting/skills/shellcheck-configuration/SKILL.md) |
 ### wshobson/agents
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| binary-analysis-patterns | 掌握二进制分析模式，包括反汇编、反编译、控制流分析和... | [链接](https://github.com/wshobson/agents/blob/main/plugins/reverse-engineering/skills/binary-analysis-patterns/SKILL.md) |
+| python-type-safety | Python类型安全，使用类型提示、泛型、协议和严格类型检查。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/python-development/skills/python-type-safety/SKILL.md) |
+| shellcheck-configuration | 掌握ShellCheck静态分析配置和使用，以提高shell脚本质量。 | [链接](https://github.com/wshobson/agents/blob/main/plugins/shell-scripting/skills/shellcheck-configuration/SKILL.md) |
 
 ---
 
 ## 05 科研运营与工作流支持 (56 个技能)
 
 
-| django-tdd | 使用pytest-django、TDD方法论、factory_boy、模拟、覆盖率和... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/django-tdd/SKILL.md) |
 ### affaan-m/everything-claude-code
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| django-tdd | 使用pytest-django、TDD方法论、factory_boy、模拟、覆盖率和... | [链接](https://github.com/affaan-m/everything-claude-code/blob/main/.cursor/skills/django-tdd/SKILL.md) |
 
 
-| personal-tool-builder | 此技能指导构建解决用户自身重复问题的自定义工具... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/personal-tool-builder/SKILL.md) |
 ### ForaeFactory/antigravity-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| personal-tool-builder | 此技能指导构建解决用户自身重复问题的自定义工具... | [链接](https://github.com/ForaeFactory/antigravity-skills/blob/main/skills/personal-tool-builder/SKILL.md) |
 
 
+### GPTomics/bioSkills
+| 技能名称 | 功能描述 | 链接 |
+|-------|-------------|-----|
 | bio-chipseq-visualization | 使用deepTools、Gviz和ChIPseeker可视化ChIP-seq数据。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/chip-seq/chipseq-visualization/SKILL.md) |
 | bio-clinical-databases-hla-typing | 使用OptiType、HLA-HD或arcasHLA从NGS数据调用HLA等位基因，用于免疫基因组学应用。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/clinical-databases/hla-typing/SKILL.md) |
 | bio-clinical-databases-pharmacogenomics | 查询 PharmGKB 和 CPIC 以获取药物-基因相互作用、药物基因组注释和剂量... | [链接](https://github.com/GPTomics/bioSkills/blob/main/clinical-databases/pharmacogenomics/SKILL.md) |
@@ -2019,58 +2023,39 @@
 | bio-workflows-metagenomics-pipeline | 从FASTQ到分类和功能特征的端到端宏基因组学工作流。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/metagenomics-pipeline/SKILL.md) |
 | bio-workflows-outbreak-pipeline | 从病原体分离物到传播网络的端到端疫情调查。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/workflows/outbreak-pipeline/SKILL.md) |
 | bio-write-sequences | 使用 Biopython Bio.SeqIO 将生物序列写入文件（FASTA、FASTQ、GenBank、EMBL）。 | [链接](https://github.com/GPTomics/bioSkills/blob/main/sequence-io/write-sequences/SKILL.md) |
-### GPTomics/bioSkills
-| 技能名称 | 功能描述 | 链接 |
-|-------|-------------|-----|
 
 
-| personal-tool-builder | 指导构建解决您自己问题的自定义工具，首先使用 scratch-your-own-itch... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/personal-tool-builder/SKILL.md) |
 ### hangoclong/skills-antigravity-awesome
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| personal-tool-builder | 指导构建解决您自己问题的自定义工具，首先使用 scratch-your-own-itch... | [链接](https://github.com/hangoclong/skills-antigravity-awesome/blob/main/skills/personal-tool-builder/SKILL.md) |
 
 
 
 
-| Verification Before Completion | 运行验证命令并确认输出，然后再声称成功。 | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/debugging/verification-before-completion/SKILL.md) |
 ### mrgoonie/claudekit-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| Verification Before Completion | 运行验证命令并确认输出，然后再声称成功。 | [链接](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/debugging/verification-before-completion/SKILL.md) |
 
 
 
 
-| agent-refinement | 代理精炼技能作为专注于 SPARC 精炼阶段的专家... | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-refinement/SKILL.md) |
-| agent-tdd-london-swarm | tdd-london-swarm的代理技能 - 使用$agent-tdd-london-swarm调用。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-tdd-london-swarm/SKILL.md) |
 ### ruvnet/claude-flow
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| agent-refinement | 代理精炼技能作为专注于 SPARC 精炼阶段的专家... | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-refinement/SKILL.md) |
+| agent-tdd-london-swarm | tdd-london-swarm的代理技能 - 使用$agent-tdd-london-swarm调用。 | [链接](https://github.com/ruvnet/claude-flow/blob/main/.agents/skills/agent-tdd-london-swarm/SKILL.md) |
 
 
-| personal-tool-builder | 指导构建解决您自己问题的自定义工具，首先使用 scratch-your-own-itch... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/personal-tool-builder/SKILL.md) |
-| verification-before-completion | 在声称工作完成、修复或通过之前使用 - 提交或创建 PR 时... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/verification-before-completion/SKILL.md) |
 ### sickn33/antigravity-awesome-skills
 | 技能名称 | 功能描述 | 链接 |
 |-------|-------------|-----|
+| personal-tool-builder | 指导构建解决您自己问题的自定义工具，首先使用 scratch-your-own-itch... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/personal-tool-builder/SKILL.md) |
+| verification-before-completion | 在声称工作完成、修复或通过之前使用 - 提交或创建 PR 时... | [链接](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/verification-before-completion/SKILL.md) |
 
 
 
 ---
 
 ## 06 其他科学技能 (258 个技能)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
