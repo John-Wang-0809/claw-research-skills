@@ -1,21 +1,8 @@
 # Research Skills Catalog
 
-> **1,367 audited research skills** from 56 GitHub repositories — curated, classified, and ready to deploy to Claude Code, OpenClaw, or IronClaw.
+> **1,367 quality-checked research skills** from 56 GitHub repositories — ready to use in Claude Code, OpenClaw, or IronClaw.
 
-## What Is This?
-
-A curated catalog of [Agent Skills](https://github.com/anthropics/skills) (SKILL.md files) for scientific research, covering everything from genome assembly to literature review to statistical analysis. Each skill has been through multi-dimensional LLM audit (accuracy, relevance, credibility) and classified by research tier, domain, and added value.
-
-**Key numbers:**
-
-| Metric | Value |
-|--------|-------|
-| Audited skills | 1,408 |
-| In catalog | 1,367 (41 filtered) |
-| Source repositories | 56 |
-| Research themes | 6 |
-| Description accuracy | 99.3% (after 9 audit rounds) |
-| Platform-ready | OpenClaw + IronClaw deployment included |
+A curated collection of [Agent Skills](https://github.com/anthropics/skills) (SKILL.md files) for scientific research, covering genome assembly, literature review, statistical analysis, and more. Each skill is classified by research tier, domain, and added value.
 
 ## Quick Start
 
@@ -35,7 +22,7 @@ No external dependencies — only Python 3.7+ standard library is required.
 
 ### 3. Use a Single Skill in Claude Code
 
-Copy any `SKILL.md` from `Final_Research_Skills_Link_Downloads_By_Theme_LATEST/` into your Claude Code skills directory:
+Copy any `SKILL.md` into your Claude Code skills directory:
 
 ```bash
 # List available skills under a theme
@@ -67,8 +54,6 @@ cp -r openclaw_deploy/* ~/.openclaw/skills/
 cp -r ironclaw_deploy/* ~/.ironclaw/skills/
 ```
 
-All 1,391 deployed names comply with the [Agent Skills specification](https://agentskills.io/specification) (`[a-z0-9-]`, max 64 chars). A `deploy_report.json` is generated with deployment details and any errors.
-
 ## Research Themes
 
 | # | Theme | Skills |
@@ -80,52 +65,25 @@ All 1,391 deployed names comply with the [Agent Skills specification](https://ag
 | 05 | Research Operations & Workflow | 50 |
 | 06 | Additional Scientific Skills | 17 |
 
-Theme documents are in [`Final_Research_Skills_Thematic_Split/`](Final_Research_Skills_Thematic_Split/).
-
-## Repository Structure
-
-```
-research-skills/
-├── SKILL_CATALOG.md                        # English catalog (1,367 skills)
-├── SKILL_CATALOG_CN.md                          # Chinese catalog
-├── deploy_skills.py                        # Platform deployment script
-├── dedup_results.json                      # Deduplication results (required by deploy_skills.py)
-├── multidim_audit.json                     # Audit database (1,408 entries)
-├── Final_Research_Skills_Thematic_Split/   # Theme documents (source data)
-└── Final_Research_Skills_Link_Downloads_By_Theme_LATEST/
-    └── <theme>/<owner__repo>/<skill>/SKILL.md  # 2,062 skill files
-```
-
-## Audit Quality
-
-Each skill was evaluated across 4 dimensions:
-
-- **research_tier** (A/B/C/D) — How central to research workflows
-- **domain** — Normalized to 50 categories (from 979 original labels)
-- **added_value** — Whether the skill provides unique value (high/medium/low)
-- **doc_completeness** — Quality of documentation
-
-## Cross-Platform Compatibility
-
-Skills follow the [Anthropic Agent Skills open standard](https://github.com/anthropics/skills) (YAML frontmatter + Markdown body). ~90% work directly on any compatible platform without modification.
+## Platform Compatibility
 
 | Platform | Status |
 |----------|--------|
-| Claude Code | Native (original target) |
-| OpenClaw | Compatible — use `deploy_skills.py` for directory conversion |
+| Claude Code | Native support |
+| OpenClaw | Compatible — use `deploy_skills.py` |
 | IronClaw | Compatible — deployment includes `activation` blocks |
-| OpenAI Codex CLI | Compatible (same standard) |
+| OpenAI Codex CLI | Compatible |
 
 ## License
 
-This project is [MIT licensed](LICENSE). Individual SKILL.md files retain the license specified in their source repositories — check the `license` field in each file's YAML frontmatter before redistribution.
+[MIT licensed](LICENSE). Individual SKILL.md files retain the license from their source repositories — check the `license` field in each file's YAML frontmatter before redistribution.
 
-## Attribution
+## Source Repositories
 
-All skills in this catalog originate from open-source GitHub repositories. Each skill entry in [SKILL_CATALOG.md](SKILL_CATALOG.md) includes a direct URL to the original SKILL.md file on GitHub. Deployed skills include `metadata.source_repo` (e.g. `owner/repo`) and `metadata.source_url` (e.g. `https://github.com/owner/repo`) in their frontmatter for traceability.
+All skills originate from open-source GitHub repositories. Each entry in [SKILL_CATALOG.md](SKILL_CATALOG.md) links to the original file.
 
 <details>
-<summary><strong>Source Repositories (60)</strong></summary>
+<summary><strong>56 Source Repositories</strong></summary>
 
 | Repository | Link |
 |------------|------|
@@ -191,8 +149,3 @@ All skills in this catalog originate from open-source GitHub repositories. Each 
 | zsyggg/paper-craft-skills | [GitHub](https://github.com/zsyggg/paper-craft-skills) |
 
 </details>
-
-## Known Limitations
-
-- `scientific-writing`: Path not found under Claude Scholar repo; GitHub URL needs manual confirmation
-- `spatial-econometrics`: Source labeled only "chan"; cannot uniquely locate GitHub repo
